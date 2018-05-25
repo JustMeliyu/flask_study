@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>login</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/Go_Demo.css') }}">
+    <script src="{{ url_for('static', filename='images/kid.jpg') }}"></script>
+</head>
+<body>
+    <p>这是一个login页面</p>
+    <p>用户名：{{ username }}</p>
+    <p>性别：{{ gender }}</p>
+    <p>年龄：{{ age }}</p>
+
+    <a href="{{ url_for('hello_world') }}">主页</a>
+</body>
+</html>

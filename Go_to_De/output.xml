@@ -1,0 +1,52 @@
+.\flaskr.py::3,1::F401::'os' imported but unused
+import os
+^
+.\Go_to_De.py::4,1::F401::'flask.current_app' imported but unused
+from flask import current_app
+^
+.\templates\login.py::3,1::F401::'flask.Request' imported but unused
+from flask import Request, Response
+^
+.\templates\login.py::3,1::F401::'flask.Response' imported but unused
+from flask import Request, Response
+^
+4     F401 'flask.current_app' imported but unused
+.\flaskr.py::3,1::F401::'os' imported but unused
+import os
+^
+.\Go_to_De.py::4,1::F401::'flask.current_app' imported but unused
+from flask import current_app
+^
+.\templates\login.py::3,1::F401::'flask.Request' imported but unused
+from flask import Request, Response
+^
+.\templates\login.py::3,1::F401::'flask.Response' imported but unused
+from flask import Request, Response
+^
+4     F401 'flask.current_app' imported but unused
+.\flaskr.py::3,1::F401::'os' imported but unused
+import os
+^
+.\Go_to_De.py::4,1::F401::'flask.current_app' imported but unused
+from flask import current_app
+^
+.\templates\login.py::3,1::F401::'flask.Request' imported but unused
+from flask import Request, Response
+^
+.\templates\login.py::3,1::F401::'flask.Response' imported but unused
+from flask import Request, Response
+^
+4     F401 'flask.current_app' imported but unused
+.\flaskr.py::3,1::F401::'os' imported but unused
+import os
+^
+.\Go_to_De.py::4,1::F401::'flask.current_app' imported but unused
+from flask import current_app
+^
+.\templates\login.py::3,1::F401::'flask.Request' imported but unused
+from flask import Request, Response
+^
+.\templates\login.py::3,1::F401::'flask.Response' imported but unused
+from flask import Request, Response
+^
+4     F401 'flask.current_app' imported but unused

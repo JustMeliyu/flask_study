@@ -1,0 +1,58 @@
+[flake8]
+
+select = B,C,E,F,I,N,S,W
+
+ignore =
+    # F812: list comprehension redefines ...
+    F812,
+    # H101: Use TODO(NAME)
+    H101,
+    # H202: assertRaises Exception too broad
+    H202,
+    # H233: Python 3.x incompatible use of print operator
+    H233,
+    # H301: one import per line
+    H301,
+    # H306: imports not in alphabetical order (time, os)
+    H306,
+    # H401: docstring should not start with a space
+    H401,
+    # H403: multi line docstrings should end on a new line
+    H403,
+    # H404: multi line docstring should start without a leading new line
+    H404,
+    # H405: multi line docstring summary not separated with an empty line
+    H405,
+    # H501: Do not use self.__dict__ for string formatting
+    H501
+
+# Provide a comma-separated list of glob patterns to exclude from checks
+exclude = .tox,setup.py,__pycache__,dist,build
+
+# Print the total number of errors
+count = true
+
+# complexity checker
+max-complexity = 12
+
+# Select the formatter used to display errors to the user
+format=%(path)s::%(row)d,%(col)d::%(code)s::%(text)s
+
+# Set the maximum length that any line (with some exceptions) may be
+max-line-length = 79
+
+# Report all errors, even if it is on the same line
+disable_noqa = True
+
+# Print the source code generating the error/warning in question
+show_source = True
+
+# Count the number of occurrences of each error/warning code and print a report.
+statistics = True
+
+# Redirect all output to the specified file
+output_file = output.xml
+
+# Enable PyFlakes syntax checking of doctests in docstrings.
+doctests = True
+

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>for循环</title>
+</head>
+<body>
+    {% for k,v in user.items() %}
+        <p>{{ k }} : {{ v }}</p>
+    {% endfor %}
+    <hr>
+    {% for site in websites %}
+        <p>site is {{ site }}</p>
+    {% endfor %}
+
+</body>
+</html>
