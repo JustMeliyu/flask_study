@@ -1,0 +1,31 @@
+.logo{
+    width: 100px;
+    height: 35px;
+}
+
+.main{
+    background: #fff;
+    width: 730px;
+    height: 400px;
+    padding: 10px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.form-container{
+    width: 350px;
+}
+
+.form-group{
+    /*width: 80%;*/
+    padding: 10px;
+    /*display: block;*/
+}
+
+.form-control{
+    width: 330px;
+}
+
+.btn-submit{
+    width: 100%;
+}

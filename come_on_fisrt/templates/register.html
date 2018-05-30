@@ -1,0 +1,28 @@
+{% extends 'nav.html' %}
+{% block title %}注册页面{% endblock %}
+{% block head %}
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
+{% endblock %}
+{% block nav %}
+        <form class="navbar-form navbar-left login_form" role="search">
+            <table class="table">
+                <tbody>
+                <tr>
+                    <td>用户名：</td>
+                    <td><input type="text" class="form-control" placeholder="用户名" aria-describedby="basic-addon2"></td>
+                </tr>
+                <tr>
+                    <td>密码：</td>
+                    <td><input type="password" class="form-control" placeholder="密码" aria-describedby="basic-addon2"></td>
+                </tr>
+                <tr>
+                    <td>密码确认：</td>
+                    <td><input type="password" class="form-control" placeholder="再次输入密码" aria-describedby="basic-addon2"></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><button type="submit" class="btn btn-primary btn-submit">注册</button></td>
+                </tr>
+                </tbody>
+            </table>
+        </form>
+{% endblock %}
