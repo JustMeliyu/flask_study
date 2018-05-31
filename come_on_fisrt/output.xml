@@ -1,0 +1,26 @@
+come_on_fisrt.py::3,80::E501::line too long (84 > 79 characters)
+from flask import Flask, render_template, request, redirect, url_for, flash, session
+                                                                               ^
+come_on_fisrt.py::6,1::F401::'models.Comments' imported but unused
+from models import Users, Articles, Comments, Tags, article_tag
+^
+come_on_fisrt.py::6,1::F401::'models.article_tag' imported but unused
+from models import Users, Articles, Comments, Tags, article_tag
+^
+come_on_fisrt.py::6,1::F401::'models.Tags' imported but unused
+from models import Users, Articles, Comments, Tags, article_tag
+^
+come_on_fisrt.py::29,80::E501::line too long (83 > 79 characters)
+            current_user = Users.query.filter(Users.telephone == telephone).first()
+                                                                               ^
+come_on_fisrt.py::53,80::E501::line too long (80 > 79 characters)
+        register_user = Users.query.filter(Users.telephone == telephone).first()
+                                                                               ^
+come_on_fisrt.py::67,80::E501::line too long (97 > 79 characters)
+                register_user = Users(telephone=telephone, username=username, password=password1)
+                                                                               ^
+come_on_fisrt.py::97,80::E501::line too long (86 > 79 characters)
+            author = Users.query.filter(Users.username == session['username']).first()
+                                                                               ^
+5     E501 line too long (84 > 79 characters)
+3     F401 'models.Comments' imported but unused

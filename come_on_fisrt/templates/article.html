@@ -1,0 +1,13 @@
+{% extends 'nav.html' %}
+{% block title %}文章详情{% endblock %}
+{% block head %}
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/article.css') }}">
+{% endblock %}
+{% block nav %}
+    <h1 class="position_center">{{ article.title }}</h1>
+    <p class="position_right">作者：{{ article.author }}</p>
+    <p class="position_right">创建日期：{{ article.create_time }}</p>
+    <hr>
+    <p class="article_content">{{ article.content }}</p>
+
+{% endblock %}
