@@ -3,16 +3,32 @@
 
 }
 
-.position_center{
-    text-align: center;
-}
-.position_left{
-    text-align: left;
-}
-.position_right{
-    text-align: right;
+
+
+
+
+.comment_form{
+    width: 90% !important;
 }
 
-.article_content{
-    text-indent: 2em;
+.comment_form textarea{
+    margin: 20px 0;
+    width: 100% !important;
+}
+
+.dotted_hr{
+    height:2px;
+    border:none;
+    border-top:2px dotted #185598;
+}
+
+.double_hr{
+    height: 3px;
+    border: none;
+    border-top:3px solid red;
+}
+
+.strong_hr{
+    height: 5px;
+    border:none;border-top:5px solid gray;
 }

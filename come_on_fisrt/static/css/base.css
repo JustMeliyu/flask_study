@@ -6,7 +6,7 @@
 .main{
     background: #fff;
     width: 730px;
-    height: 400px;
+    height: auto;
     padding: 10px;
     margin: 0 auto;
     overflow: hidden;
@@ -28,4 +28,28 @@
 
 .btn-submit{
     width: 100%;
+}
+
+.position_center{
+    text-align: center;
+}
+.position_left{
+    text-align: left;
+}
+.position_right{
+    text-align: right;
+}
+.article_content{
+    text-indent: 2em;
+}
+
+.title_font{
+    font-size: 20px;
+    padding: 10px;
+}
+
+
+.article_type{
+    float: left;
+    margin: 0 0 10px 10px;
 }

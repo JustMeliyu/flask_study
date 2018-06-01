@@ -5,6 +5,7 @@ import config
 
 app = Flask(__name__)
 app.config.from_object(config)
+print app.config['SQLALCHEMY_DATABASE_URI']
 db = SQLAlchemy(app)
 # create table users(
 #     id int primary key autoincrement,
@@ -84,14 +85,14 @@ def index():
     # db.session.add(article3)
     # # db.session.add(article2)
     # db.session.commit()
-    article4 = Articles.query.filter(Articles.id == 1).first()
-    print article4.author.username
-
-    user1 = Users.query.filter(Users.username == 'ly').first()
-    result = user1.articles
-    for r in result:
-        print '-'*10
-        print r.title, r.content
+    # article4 = Articles.query.filter(Articles.id == 1).first()
+    # print article4.author.username
+    #
+    # user1 = Users.query.filter(Users.username == 'ly').first()
+    # result = user1.articles
+    # for r in result:
+    #     print '-'*10
+    #     print r.title, r.content
     return 'index'
 
 
