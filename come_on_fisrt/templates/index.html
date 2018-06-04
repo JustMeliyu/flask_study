@@ -2,10 +2,10 @@
 {% block title %}首页{% endblock %}
 {% block nav %}
     {% for article in articles %}
-        <a class="title_font" href="{{ url_for('article', article_id = article.id) }}">{{ article.title }}</a>
+        <a class="title_font" href="{{ url_for('article.article_info', article_id = article.id) }}">{{ article.title }}</a>
         <p class="article_content">{{ article.content }}</p>
         <p class="position_right"><span class="article_type">{{ article.type }}</span>{{ article.author }}&nbsp&nbsp&nbsp&nbsp{{ article.create_time }}</p>
         <hr>
     {% endfor %}
-    <a href="{{ url_for('all_articles') }}">更多</a>
+    <a href="{{ url_for('article.all_articles') }}">更多</a>
 {% endblock %}
