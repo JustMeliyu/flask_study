@@ -11,16 +11,18 @@
                 <td>手机号：</td>
                 <td><input type="text" class="form-control" placeholder="用户名" aria-describedby="basic-addon2" name="telephone"></td>
             </tr>
+
             <tr>
                 <td>密码：</td>
                 <td>
                     <input type="password" class="form-control" placeholder="密码" aria-describedby="basic-addon2" name="password">
                 </td>
             </tr>
+            {% include 'flash.html' %}
             <tr>
                 <td colspan="2"><div class="checkbox">
                     <label>
-                        <input type="checkbox"> Remember me
+                        <input type="checkbox" name="remember_me"> Remember me
                     </label>
                 </div></td>
             </tr>

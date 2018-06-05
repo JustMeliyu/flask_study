@@ -16,7 +16,6 @@ def article_info(article_id):
         current_article.create_time = current_article.create_time.strftime('%Y-%m-%d %H:%M:%S')
         article_info = class_to_dict(current_article)
         article_info['author'] = current_article.author.username
-        print article_info.get('author')
         # 显示评论
         comments = Comments.query.filter(Comments.article_id == article_id).all()
         for c in comments:

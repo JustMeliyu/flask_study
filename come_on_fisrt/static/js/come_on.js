@@ -6,3 +6,13 @@ function select_fun(){
             obj[i].selected = true;
     }
 }
+
+function is_checked() {
+    var remember_me = document.getElementsByName('remember_me');
+    return remember_me.checked
+    // if (obj.checked == true){
+    //     remember_me.checked = true;
+    // }else {
+    //     remember_me.checked = false;
+    // }
+}
