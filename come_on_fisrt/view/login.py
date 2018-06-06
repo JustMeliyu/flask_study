@@ -4,6 +4,7 @@ from flask import Blueprint, redirect, request,render_template, flash, session, 
 from models import Users
 from datetime import timedelta
 from config import app
+from services.public import class_to_dict
 auth = Blueprint('auth', __name__)
 
 
@@ -12,6 +13,9 @@ def login():
     if request.method == 'GET':
         return render_template('login.html')
     else:
+        re = class_to_dict(request)
+        for k, v in re.get('environ').items():
+            print "%s ：%s" % (k, v)
         print request.get_json(force=False, silent=True)
         telephone = request.form.get('telephone')
         password = request.form.get('password')

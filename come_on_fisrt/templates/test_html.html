@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var data = {
+        "name": "ly",
+        "age": 20
+    }
+    $.ajax({
+        type: 'POST',
+        url: '/login',
+        data: JSON.stringify(data),
+        contentType: 'application/json; charset=UTF-8',
+        dataType: 'json',
+    success: function(data) {
+            alert('success')
+    },
+    error: function(xhr, type) {
+            alert('error')
+    }
+    });
+
+</script>
+
+
+test json
+</body>
+</html>
