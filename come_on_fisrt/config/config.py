@@ -21,3 +21,14 @@ SQLALCHEMY_DATABASE_URI = "{}+{}://{}:{}@{}:{}/{}?charset=utf8".format(DIALECT, 
 SQLALCHEMY_TRACK_MODIFICATIONS = False
 
 index_article_num = 3
+
+
+
+errcode = {
+    'GET_SUCCESS': 1000,
+    'DB_ERROR': 1001
+}
+errmsg = {
+    "GET_SUCCESS": u"成功",
+    "DB_ERROR": u"数据库错误"
+}

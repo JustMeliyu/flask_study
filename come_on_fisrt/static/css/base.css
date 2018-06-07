@@ -60,3 +60,10 @@
     color: green;
 }
 
+.float_r{
+    float: right;
+}
+
+.float_l{
+    float: left;
+}
