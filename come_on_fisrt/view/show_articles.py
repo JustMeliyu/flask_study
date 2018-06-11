@@ -37,7 +37,7 @@ def get_articles():
             'total': paginate.total,
             'data': [class_to_dict(item) for item in paginate.items]
         }
-        results = jsonify(get_result('GET_SUCCESS', data))
+        results = jsonify(get_result('SUCCESS', data))
     except:
         print traceback.format_exc()
         results = jsonify(get_result('DB_ERROR', data))

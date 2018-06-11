@@ -16,10 +16,12 @@ def index_page():
     # 显示最新三篇文章
     articles = Articles.query.order_by(db.desc(Articles.create_time))
     articles = articles.all()
-    for i in range(config.index_article_num):
-        author = articles[i].author.username
-        articles[i] = class_to_dict(articles[i])
-        articles[i]['author'] = author
-        articles[i]['content'] = articles[i]['content'][0:40] + '......'
-        all_articles.append(articles[i])
+    if articles:
+        article_num = (len(articles) if config.index_article_num >= len(articles) else config.index_article_num)
+        for i in range(article_num):
+            author = articles[i].author.username
+            articles[i] = class_to_dict(articles[i])
+            articles[i]['author'] = author
+            articles[i]['content'] = articles[i]['content'][0:40] + '......'
+            all_articles.append(articles[i])
     return render_template('index.html', articles=all_articles)

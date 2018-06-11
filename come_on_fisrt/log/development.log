@@ -4,3 +4,5 @@ come_on_first | 2018-06-08 13:23:40,328 | INFO | 8248:11092 | initializer.py | 2
 come_on_first | 2018-06-08 13:27:24,411 | INFO | 11100:11844 | initializer.py | 23 | <module> | mysql://None:None@None:None/None?charset=utf8
 come_on_first | 2018-06-08 13:28:55,795 | INFO | 8588:12720 | initializer.py | 23 | <module> | mysql://None:None@None:None/None?charset=utf8
 come_on_first | 2018-06-08 13:28:56,319 | INFO | 9444:1368 | initializer.py | 23 | <module> | mysql://None:None@None:None/None?charset=utf8
+come_on_first | 2018-06-08 18:02:55,039 | INFO | 27454:139819526805248 | initializer.py | 23 | <module> | mysql://None:None@None:None/None?charset=utf8
+come_on_first | 2018-06-08 18:02:55,348 | INFO | 27457:140567604975360 | initializer.py | 23 | <module> | mysql://None:None@None:None/None?charset=utf8

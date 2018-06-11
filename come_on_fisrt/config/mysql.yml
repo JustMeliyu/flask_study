@@ -1,13 +1,13 @@
-
-#development:
-#    <<: *default
-#    user: root
-#    password: 123456
-#    host: localhost
-#    port: 3306
-#    database: my_test
 default: &default
     pool: 50
+
+test:
+    <<: *default
+    user: root
+    password: Admin.2@cd
+    host: localhost
+    port: 3306
+    database: come_on_first
 
 development:
     <<: *default

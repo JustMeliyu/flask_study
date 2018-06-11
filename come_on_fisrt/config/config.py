@@ -23,11 +23,15 @@ SQLALCHEMY_TRACK_MODIFICATIONS = False
 index_article_num = 3
 
 errcode = {
-    'GET_SUCCESS': 1000,
-    'DB_ERROR': 1001
+    "SUCCESS": 1000,
+    "DB_ERROR": 1001,
+    "WRONG_PASSWORD": 1002,
+    "LACK_PARAMETER": 1003
 }
 
 errmsg = {
-    "GET_SUCCESS": u"成功",
-    "DB_ERROR": u"数据库错误"
+    "SUCCESS": u"成功",
+    "DB_ERROR": u"数据库错误",
+    "WRONG_PASSWORD": u"用户名或密码错误",
+    "LACK_PARAMETER": u"缺少必要参数"
 }

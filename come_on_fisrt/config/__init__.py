@@ -1,5 +1,5 @@
 from config import *
-from config.initializer import app
+from .initializer import app
 from view import *
 
 app.register_blueprint(index)
