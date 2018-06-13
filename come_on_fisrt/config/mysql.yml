@@ -11,8 +11,8 @@ test:
 
 development:
     <<: *default
-    user: $BOR_MYSQL_USER
-    password: $BOR_MYSQL_PASSWORD
-    host: $BOR_MYSQL_HOST
-    port: $BOR_MYSQL_PORT
-    database: $BOR_MYSQL_DATABASE
+    user: $COME_MYSQL_USER
+    password: $COME_MYSQL_PASSWORD
+    host: $COME_MYSQL_HOST
+    port: $COME_MYSQL_PORT
+    database: $COME_MYSQL_DATABASE

@@ -26,7 +26,6 @@ def get_articles():
             query_result = query_result.filter(Articles.title.like('%{}%'.format(condition)) |
                                                Articles.content.like('%{}%'.format(condition)) |
                                                Articles.type.like('%{}%'.format(condition)))
-            print 'yes'
         if sort:
             pass
         else:

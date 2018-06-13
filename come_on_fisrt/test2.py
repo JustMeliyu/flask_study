@@ -1,4 +1,10 @@
+a = {}
 
-filename = "rrr.das.das"
-print filename.rsplit('.', 1)[2]
-print filename.split(".")
+try:
+    b = a.get("s")
+    b = b.strip()
+except:
+    print(1)
+
+print(b)
+

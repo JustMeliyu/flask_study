@@ -1,14 +1,14 @@
 # encoding: utf-8
 
 from flask import request, Blueprint
-from helpers.tools import *
-from models import Users
+from app.helpers.tool import *
 from uuid import uuid1
 import hashlib
+from app.models.users import Users
 auth = Blueprint('auth', __name__)
 
 
-@auth.route('/login/', methods=['POST'])
+@auth.route('', methods=['POST'])
 def login():
     data = {}
     telephone = request.values.get('telephone')
