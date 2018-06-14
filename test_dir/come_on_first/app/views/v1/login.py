@@ -1,31 +1,27 @@
 # encoding: utf-8
 
-from flask import request, Blueprint
-from app.helpers.tool import *
+from flask import request, Blueprint, g
+from app.helpers.tool import jsonify, get_result
+from app.helpers.public import check_params_exist, allow_cross_domain
 from uuid import uuid1
 import hashlib
-from app.models.users import Users
+from app.services.login import get_user
 auth = Blueprint('auth', __name__)
 
 
+# 登录
 @auth.route('', methods=['POST'])
+@allow_cross_domain
+@check_params_exist(required=['telephone', 'password'])
 def login():
-    data = {}
     telephone = request.values.get('telephone')
     password = request.values.get('password')
-    if not telephone or not password:
-        return jsonify(get_result("LACK_PARAMETER", data))
-    user = Users.query.filter(Users.telephone == telephone).first()
     m2 = hashlib.md5(password)
-    if user.password == m2.hexdigest():
-        token = uuid1()
-        data = {
-            "id": user.id,
-            "token": token,
-            "telephone": telephone,
-            "username": user.username
-        }
-        return jsonify(get_result("SUCCESS", data))
+    token = uuid1()
+    g.token = token
+    result = get_user(telephone, m2.hexdigest())
+    if result.get("ERROR"):
+        return jsonify(get_result(result.get("ERROR"), {}))
     else:
-        return jsonify(get_result("WRONG_PASSWORD", data))
+        return jsonify(get_result("SUCCESS", dict({"token": token}, **result.get("DATA"))))
 

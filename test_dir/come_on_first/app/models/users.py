@@ -10,4 +10,10 @@ class Users(db.Model):
     telephone = db.Column(db.String(11), nullable=False)
     username = db.Column(db.String(50), nullable=False)
     password = db.Column(db.String(100), nullable=False)
-    create_time = db.Column(db.DateTime, default=datetime.now)
+    create_time = db.Column(db.DateTime)
+
+    def __init__(self, telephone, username, password, create_time=None):
+        self.telephone = telephone
+        self.username = username
+        self.password = password
+        self.create_time = create_time if create_time else datetime.now()

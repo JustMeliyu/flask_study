@@ -16,10 +16,9 @@ routes = {
 
 def register_routes(app):
     """register blueprints from route map"""
-    print(config.get('APP_API_VERSION'))
     v = config.get('APP_API_VERSION') or ""
     for url, bp in routes.items():
-        print(url)
+        print(v+url)
         app.register_blueprint(bp, url_prefix=v+url)
 
 

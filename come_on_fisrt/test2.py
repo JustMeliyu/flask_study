@@ -1,10 +1,18 @@
 a = {}
-
+# a["q"]
+b = []
 try:
-    b = a.get("s")
-    b = b.strip()
+    b["d"]
+    raise KeyError
+    print(111)
 except:
-    print(1)
-
-print(b)
+    print(222)
+# a.get("s").strip()
+# try:
+#     b = a.get("s")
+#     b = b.strip()
+# except:
+#     print(1)
+#
+# print(b)
 

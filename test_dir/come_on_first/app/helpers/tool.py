@@ -15,7 +15,6 @@ class APIEncoder(json.JSONEncoder):
             return o.isoformat()
         elif isinstance(o, Decimal):
             return float(o)
-        print type(o)
         return json.JSONEncoder.default(self, o)
 
 
@@ -33,7 +32,6 @@ def class_to_dict(obj):
     dic = {}
     dic.update(obj.__dict__)
     if "_sa_instance_state" in dic:
-        print dic['_sa_instance_state']
         del dic['_sa_instance_state']
     return dic
 

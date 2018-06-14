@@ -26,16 +26,20 @@ errcode = {
     "SUCCESS": 1000,
     "DB_ERROR": 1001,
     "WRONG_PASSWORD": 1002,
-    "LACK_PARAMETER": 1003,
+    "LACK_PARAM": 1003,
     "EXIST_USER": 1004,
-    "PWD_DIFF": 1005
+    "PWD_DIFF": 1005,
+    "PARAM_EMPTY": 1006,
+    "TOKEN_EXPIRE": 1007
 }
 
 errmsg = {
     "SUCCESS": u"成功",
     "DB_ERROR": u"数据库错误",
     "WRONG_PASSWORD": u"用户名或密码错误",
-    "LACK_PARAMETER": u"缺少必要参数",
+    "LACK_PARAM": u"缺少必要参数",
     "EXIST_USER": u"已存在用户",
-    "PWD_DIFF": u"密码不一致"
+    "PWD_DIFF": u"密码不一致",
+    "PARAM_EMPTY": u"参数为空",
+    "TOKEN_EXPIRE": u"token过期"
 }
