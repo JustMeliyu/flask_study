@@ -1,0 +1,37 @@
+{% extends 'nav.html' %}
+{% block title %}发布问答{% endblock %}
+{% block head %}
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
+{% endblock %}
+{% block nav %}
+    <form class="navbar-form navbar-left login_form" role="search" method="post">
+        <table class="table">
+            <tbody>
+            <tr>
+                <td>类别：</td>
+                <td>
+                    <select class="form-control" id="article_type" name="article_type" onchange="select_fun()">
+                        <option value="science">科技</option>
+                        <option value="sport">体育</option>
+                        <option value="game">游戏</option>
+                        <option value="movie">电影</option>
+                        <option value="other">其他</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>标题：</td>
+                <td><input type="text" class="form-control" aria-describedby="basic-addon2" name="title"></td>
+            </tr>
+            <tr>
+                <td>内容：</td>
+                <td><textarea name="content" id="content" cols="50" rows="5" class="form-control"></textarea></td>
+            </tr>
+            {% include 'flash.html' %}
+            <tr>
+                <td colspan="2"><button type="submit" class="btn btn-primary btn-submit">发布</button></td>
+            </tr>
+            </tbody>
+        </table>
+    </form>
+{% endblock %}

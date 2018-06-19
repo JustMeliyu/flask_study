@@ -30,7 +30,10 @@ errcode = {
     "EXIST_USER": 1004,
     "PWD_DIFF": 1005,
     "PARAM_EMPTY": 1006,
-    "TOKEN_EXPIRE": 1007
+    "TOKEN_EXPIRE": 1007,
+    "PARAM_ERROR": 1008,
+    "NO_FILE": 1009,
+    "ERROR_FILE": 1010
 }
 
 errmsg = {
@@ -41,5 +44,13 @@ errmsg = {
     "EXIST_USER": u"已存在用户",
     "PWD_DIFF": u"密码不一致",
     "PARAM_EMPTY": u"参数为空",
-    "TOKEN_EXPIRE": u"token过期"
+    "TOKEN_EXPIRE": u"token过期",
+    "PARAM_ERROR": u"参数错误",
+    "NO_FILE": u"请上传文件",
+    "ERROR_FILE": u"错误文件"
 }
+
+
+article_type = ["movie", "game", "sport", "science", "other"]
+
+file_legality = ['xlsm', 'xlsx']

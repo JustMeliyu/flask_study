@@ -1,0 +1,17 @@
+.form_div{
+    background-color: darkgray;
+    width: 400px;
+    height: 250px;
+    left: 500px;
+    position: absolute;
+    top: 100px;
+}
+.login_form{
+    margin: 50px 10% !important;
+    width: 80% !important;
+}
+
+.login_form input{
+    width: 80% !important;
+}
+

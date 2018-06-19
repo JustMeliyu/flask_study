@@ -2,6 +2,8 @@
 
 from exts import db
 from datetime import datetime
+from sqlalchemy.ext.declarative import declarative_base
+Model = declarative_base()
 
 
 class Users(db.Model):

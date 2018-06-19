@@ -6,6 +6,7 @@ import os
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 from giraffe import Config, Logger
+import data as c_data
 
 
 _current_path = os.path.dirname(__file__)
@@ -34,6 +35,11 @@ logger = Logger.create(
 
 # initialize application instances
 app = Flask(__name__)
+# app for template
+# app = Flask(__name__, static_folder="../app/static", template_folder="../app/templates")
+
+
+app.config.from_object(c_data)
 app.config['SQLALCHEMY_DATABASE_URI'] = config["MYSQL_DATABASE_URI"]
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = config["APP_TRACK_MODIFICATIONS"]
 app.config['SQLALCHEMY_ECHO'] = config["APP_ECHO"]
