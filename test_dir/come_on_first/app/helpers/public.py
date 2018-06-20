@@ -36,9 +36,11 @@ def check_params_exist(required=None):
                         request.get_json(force=False, silent=True)[param]
                     except KeyError:
                         logger.debug("key %s is required" % param)
+                        print(1)
                         return jsonify(get_result("LACK_PARAM", {}))
                     except TypeError:
                         logger.debug("json is not dict")
+                        print(2)
                         return jsonify(get_result("LACK_PARAM", {}))
             val = func(*args, **kwargs)
             return val

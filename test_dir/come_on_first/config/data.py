@@ -1,6 +1,6 @@
 # encoding:utf-8
 import os
-DEBUG = True
+# DEBUG = True
 
 SECRET_KEY = os.urandom(24)
 
@@ -33,7 +33,9 @@ errcode = {
     "TOKEN_EXPIRE": 1007,
     "PARAM_ERROR": 1008,
     "NO_FILE": 1009,
-    "ERROR_FILE": 1010
+    "ERROR_FILE": 1010,
+    "ERROR_FILE_CONTENT": 1011,
+    "AUTHOR_NOT_EXIST": 1012
 }
 
 errmsg = {
@@ -47,10 +49,17 @@ errmsg = {
     "TOKEN_EXPIRE": u"token过期",
     "PARAM_ERROR": u"参数错误",
     "NO_FILE": u"请上传文件",
-    "ERROR_FILE": u"错误文件"
+    "ERROR_FILE": u"错误文件",
+    "ERROR_FILE_CONTENT": u"错误文件内容",
+    "AUTHOR_NOT_EXIST": u"作者不存在"
 }
 
+article_key = ["author", "title", "type", "content", "create_time"]
 
 article_type = ["movie", "game", "sport", "science", "other"]
 
 file_legality = ['xlsm', 'xlsx']
+
+start_row = 3
+start_col = 2
+end_col = 5
