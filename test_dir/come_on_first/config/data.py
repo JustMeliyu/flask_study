@@ -35,7 +35,8 @@ errcode = {
     "NO_FILE": 1009,
     "ERROR_FILE": 1010,
     "ERROR_FILE_CONTENT": 1011,
-    "AUTHOR_NOT_EXIST": 1012
+    "AUTHOR_NOT_EXIST": 1012,
+    "PERMISSION_DENIED": 1013
 }
 
 errmsg = {
@@ -51,9 +52,11 @@ errmsg = {
     "NO_FILE": u"请上传文件",
     "ERROR_FILE": u"错误文件",
     "ERROR_FILE_CONTENT": u"错误文件内容",
-    "AUTHOR_NOT_EXIST": u"作者不存在"
+    "AUTHOR_NOT_EXIST": u"作者不存在",
+    "PERMISSION_DENIED": u"权限不足"
 }
 
+article_key_cn = [u"作者", u"标题", u"类型", u"内容", u"发布日期"]
 article_key = ["author", "title", "type", "content", "create_time"]
 
 article_type = ["movie", "game", "sport", "science", "other"]
@@ -63,3 +66,15 @@ file_legality = ['xlsm', 'xlsx']
 start_row = 3
 start_col = 2
 end_col = 5
+
+user_per = {
+    "admin": 10,
+    "other": 0,
+}
+
+
+file_path = {
+    "download": "file/download",
+    "upload": "file/upload"
+}
+

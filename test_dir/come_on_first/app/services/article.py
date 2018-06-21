@@ -1,17 +1,19 @@
 # encoding: utf-8
 
+import os
 import xlrd
+import xlwt
 from app.models.articles import Articles
 from app.models.users import Users
 from app.helpers.public import class_to_dict
-from app.helpers.build_redis import is_login
+from app.helpers.build_redis import is_login, is_permissions
 import traceback
 from config import logger, db, data as c_data
-# from config import data as c_data
 from flask import g
 from datetime import datetime
 
 
+# 得到对应页数的文章
 def get_page_article(page_index, page_size, sort, title, content, article_type):
     try:
         query_result = Articles.query
@@ -35,6 +37,7 @@ def get_page_article(page_index, page_size, sort, title, content, article_type):
         return {"ERROR": "DB_ERROR"}
 
 
+# 发布文章
 @is_login
 def p_article(title, content, article_type):
     if article_type not in c_data.article_type:
@@ -60,38 +63,46 @@ def p_article(title, content, article_type):
         return {"ERROR": "DB_ERROR"}
 
 
+# 检查文件是否符合要求
 def file_is_legal(filename):
     return '.' in filename and filename.rsplit('.', 1)[1] in c_data.file_legality
 
 
+# 获取excel数据，并保存到数据库中
 @is_login
+@is_permissions
 def get_excel_data(file_path):
 
     all_article = get_data(file_path)
-    # noinspection PyBroadException
-    # try:
-    #     for art in all_article:
-    #         user = Users.query.filter_by(username=art.get('author')).first()
-    #         if not user:
-    #             return {"ERROR": "AUTHOR_NOT_EXIST"}
-    #         article_ditail = Articles(title=art.get('title'),
-    #                                   content=art.get('content'),
-    #                                   type=art.get('type'),
-    #                                   create_time=art.get('create_time'), author=user)
-    #         db.session.add(article_ditail)
-    #     db.session.commit()
-    # except Exception:
-    #     db.session.rollback()
-    #     logger.info(traceback.format_exc())
-    #     return {"ERROR": "DB_ERROR"}
+    try:
+        all_article.get("ERROR")
+        return all_article
+    except AttributeError:
+        # noinspection PyBroadException
+        try:
+            for art in all_article:
+                user = Users.query.filter_by(username=art.get('author')).first()
+                if not user:
+                    return {"ERROR": "AUTHOR_NOT_EXIST"}
+                article_ditail = Articles(title=art.get('title'),
+                                          content=art.get('content'),
+                                          type=art.get('type'),
+                                          create_time=art.get('create_time'), author=user)
+                db.session.add(article_ditail)
+            db.session.commit()
+        except Exception:
+            db.session.rollback()
+            logger.info(traceback.format_exc())
+            return {"ERROR": "DB_ERROR"}
 
-    data = {
-        "total": len(all_article),
-        "data": all_article
-    }
-    return {"DATA": data}
+        data = {
+            "total": len(all_article),
+            "data": all_article
+        }
+        return {"DATA": data}
 
 
+# 读excel中数据
 def get_data(path):
     all_article = []
     merged = False
@@ -124,6 +135,36 @@ def get_data(path):
         article_value[c_data.end_col - 1] = xlrd.xldate_as_tuple(article_value[c_data.end_col - 1],
                                                                  excel_file.datemode)
         article_value[c_data.end_col - 1] = datetime(*article_value[c_data.end_col - 1][:6])
+        for info in article_value:
+            if info == "":
+                return {"ERROR", "ERROR_FILE_CONTENT"}
         article = dict(zip(article_key, article_value))
         all_article.append(article)
     return all_article
+
+
+def write_excel():
+    artciles_wb = xlwt.Workbook(encoding='utf-8', style_compression=0)
+    articles_sh = artciles_wb.add_sheet("articles")
+    # 写入标题，中文和英文
+    for i in range(len(c_data.article_key)):
+        articles_sh.write(0, i, c_data.article_key_cn[i])
+        articles_sh.write(1, i, c_data.article_key[i])
+
+    # 写入具体内容
+    # 获取写过文章左右作者的author_id
+    all_author = db.session.query(Articles.author_id).distinct().all()
+    print(all_author)
+    j = c_data.start_row - 1
+    for a in all_author:
+        arts = Articles.query.filter_by(author_id=a[0]).all()
+        for art in arts:
+            articles_sh.write(j, 0, art.author_id)
+            articles_sh.write(j, 1, art.title)
+            articles_sh.write(j, 2, art.type)
+            articles_sh.write(j, 3, art.content)
+            articles_sh.write(j, 4, art.create_time)
+            j += 1
+
+    artciles_wb.save(os.path.join(os.getcwd(), c_data.file_path.get('download'), "test.xlsx"))
+    return {"DATA": {"data": "OK"}}

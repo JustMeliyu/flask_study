@@ -3,12 +3,11 @@ import os
 import time
 import traceback
 import sys
-import xlrd
 from flask import Blueprint, request, g
 from app.helpers.public import check_params_exist, jsonify, get_result, allow_cross_domain
-from app.services.article import get_page_article, p_article, file_is_legal, get_excel_data
+from app.services.article import get_page_article, p_article, file_is_legal, get_excel_data, write_excel
 from app.models.articles import Articles
-from config import db, logger
+from config import db, logger, data as c_data
 article = Blueprint('article', __name__)
 reload(sys)
 sys.setdefaultencoding('utf-8')
@@ -84,7 +83,7 @@ def upload_article():
         is_legal_file = file_is_legal(fname.filename)
         if is_legal_file:
             t = time.strftime('%Y%m%d%H%M%S')
-            file_path = os.path.join(os.getcwd(), "file/")
+            file_path = os.path.join(os.getcwd(), c_data.file_path.get("upload"))
             new_fpath = file_path + t + fname.filename
             fname.save(new_fpath)  # 保存文件到指定路径
             result = get_excel_data(new_fpath)
@@ -96,3 +95,10 @@ def upload_article():
         return jsonify(get_result(result.get("ERROR"), {}))
     else:
         return jsonify(get_result("SUCCESS", result.get("DATA")))
+
+
+@article.route('/download')
+def download_article():
+    result = write_excel()
+    return jsonify(get_result("SUCCESS", result.get("DATA")))
+

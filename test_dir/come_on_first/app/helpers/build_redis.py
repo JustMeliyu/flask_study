@@ -1,7 +1,7 @@
 # encoding: utf-8
 
 import redis
-from config import config, logger
+from config import config, logger, data as c_data
 from functools import wraps
 from flask import g
 
@@ -44,6 +44,23 @@ def is_login(func):
                 g.current_user_id = int(current_user_id)
             data = func(*args, **kwargs)
             return data
+        except:
+            return {"ERROR": "DB_ERROR"}
+    return wrapper
+
+
+def is_permissions(func):
+    @wraps(func)
+    def wrapper(*args, **kwargs):
+        try:
+            user_info = r.hgetall(g.token)
+            print(user_info)
+            user_per = int(user_info.get('permissions'))
+            print(user_per)
+            if user_per != c_data.user_per.get("admin"):
+                return {"ERROR": "PERMISSION_DENIED"}
+            dada = func(*args, **kwargs)
+            return dada
         except:
             return {"ERROR": "DB_ERROR"}
     return wrapper

@@ -11,9 +11,11 @@ class Users(db.Model):
     username = db.Column(db.String(50), nullable=False)
     password = db.Column(db.String(100), nullable=False)
     create_time = db.Column(db.DateTime)
+    permissions = db.Column(db.Integer, nullable=False)
 
-    def __init__(self, telephone, username, password, create_time=None):
+    def __init__(self, telephone, username, password, permissions, create_time=None):
         self.telephone = telephone
         self.username = username
         self.password = password
+        self.permissions = permissions
         self.create_time = create_time if create_time else datetime.now()
