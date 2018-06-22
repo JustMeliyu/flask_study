@@ -6,11 +6,11 @@ import xlwt
 from app.models.articles import Articles
 from app.models.users import Users
 from app.helpers.public import class_to_dict
-from app.helpers.build_redis import is_login, is_permissions
+from app.helpers.build_redis import *
 import traceback
 from config import logger, db, data as c_data
 from flask import g
-from datetime import datetime
+from datetime import datetime, time
 
 
 # 得到对应页数的文章
@@ -70,12 +70,15 @@ def file_is_legal(filename):
 
 # 获取excel数据，并保存到数据库中
 @is_login
-@is_permissions
+@is_admin
 def get_excel_data(file_path):
-
+    if get_key("UPLOADING"):
+        return {"ERROR": "FILE_UPLOADING"}
+    set_key("UPLOADING", "doing")
     all_article = get_data(file_path)
     try:
         all_article.get("ERROR")
+        delete_key("UPLOADING")
         return all_article
     except AttributeError:
         # noinspection PyBroadException
@@ -83,6 +86,7 @@ def get_excel_data(file_path):
             for art in all_article:
                 user = Users.query.filter_by(username=art.get('author')).first()
                 if not user:
+                    delete_key("UPLOADING")
                     return {"ERROR": "AUTHOR_NOT_EXIST"}
                 article_ditail = Articles(title=art.get('title'),
                                           content=art.get('content'),
@@ -91,6 +95,7 @@ def get_excel_data(file_path):
                 db.session.add(article_ditail)
             db.session.commit()
         except Exception:
+            delete_key("UPLOADING")
             db.session.rollback()
             logger.info(traceback.format_exc())
             return {"ERROR": "DB_ERROR"}
@@ -99,6 +104,7 @@ def get_excel_data(file_path):
             "total": len(all_article),
             "data": all_article
         }
+        delete_key("UPLOADING")
         return {"DATA": data}
 
 
@@ -143,28 +149,47 @@ def get_data(path):
     return all_article
 
 
+@is_login
+@is_admin
 def write_excel():
     artciles_wb = xlwt.Workbook(encoding='utf-8', style_compression=0)
     articles_sh = artciles_wb.add_sheet("articles")
+    # 设置到处excel单元格格式
+    title_format = xlwt.easyxf("font: name Times New Roman, bold on;\
+                                align: horz center, vert center;\
+                                border: top thick, bottom thick, left thick, right thick")
+    time_format = xlwt.easyxf("align: horz center, vert center;\
+                              border: top thick, bottom thick, left thick, right thick",
+                              num_format_str="yyyy/mm/dd hh:mm:ss")
+    content_format = xlwt.easyxf("align: vert center;\
+                              border: top thick, bottom thick, left thick, right thick")
     # 写入标题，中文和英文
     for i in range(len(c_data.article_key)):
-        articles_sh.write(0, i, c_data.article_key_cn[i])
-        articles_sh.write(1, i, c_data.article_key[i])
+        articles_sh.write(0, i, c_data.article_key_cn[i], style=title_format)
+        articles_sh.write(1, i, c_data.article_key[i], style=title_format)
 
     # 写入具体内容
-    # 获取写过文章左右作者的author_id
-    all_author = db.session.query(Articles.author_id).distinct().all()
-    print(all_author)
-    j = c_data.start_row - 1
-    for a in all_author:
-        arts = Articles.query.filter_by(author_id=a[0]).all()
-        for art in arts:
-            articles_sh.write(j, 0, art.author_id)
-            articles_sh.write(j, 1, art.title)
-            articles_sh.write(j, 2, art.type)
-            articles_sh.write(j, 3, art.content)
-            articles_sh.write(j, 4, art.create_time)
-            j += 1
-
-    artciles_wb.save(os.path.join(os.getcwd(), c_data.file_path.get('download'), "test.xlsx"))
+    # 获取写过文章作者的author_id
+    try:
+        all_author = db.session.query(Articles.author_id).distinct().all()
+        j = c_data.start_row - 1
+        for a in all_author:
+            arts = Articles.query.filter_by(author_id=a[0]).all()
+            author = arts[0].author.username
+            # 合并单元格
+            articles_sh.write_merge(j, j + len(arts) - 1, 0, 0, author, style=content_format)
+            for art in arts:
+                # 写入文章详细信息
+                articles_sh.write(j, 1, art.title, style=content_format)
+                articles_sh.write(j, 2, art.type, style=content_format)
+                articles_sh.write(j, 3, art.content, style=content_format)
+                articles_sh.write(j, 4, art.create_time, style=time_format)
+                j += 1
+    except:
+        logger.info(traceback.format_exc())
+        return {"ERROR": "DB_ERROR"}
+    # 保存文件
+    file_name = datetime.strftime(datetime.now(), '%Y%m%d%H%M%S') + ".xlsx"
+    file_path = os.path.join(c_data.file_path.get('download'), file_name)
+    artciles_wb.save(file_path)
     return {"DATA": {"data": "OK"}}

@@ -83,8 +83,8 @@ def upload_article():
         is_legal_file = file_is_legal(fname.filename)
         if is_legal_file:
             t = time.strftime('%Y%m%d%H%M%S')
-            file_path = os.path.join(os.getcwd(), c_data.file_path.get("upload"))
-            new_fpath = file_path + t + fname.filename
+            # file_path = os.path.join(os.getcwd(), c_data.file_path.get("upload"))
+            new_fpath = c_data.file_path.get("upload") + t + fname.filename
             fname.save(new_fpath)  # 保存文件到指定路径
             result = get_excel_data(new_fpath)
         else:
@@ -97,8 +97,12 @@ def upload_article():
         return jsonify(get_result("SUCCESS", result.get("DATA")))
 
 
-@article.route('/download')
+@article.route('/download', methods=['POST'])
 def download_article():
+    token = request.values.get('token')
+    g.token = token
     result = write_excel()
-    return jsonify(get_result("SUCCESS", result.get("DATA")))
-
+    if result.get("ERROR"):
+        return jsonify(get_result(result.get("ERROR"), {}))
+    else:
+        return jsonify(get_result("SUCCESS", result.get("DATA")))

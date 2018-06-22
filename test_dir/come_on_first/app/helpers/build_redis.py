@@ -49,7 +49,7 @@ def is_login(func):
     return wrapper
 
 
-def is_permissions(func):
+def is_admin(func):
     @wraps(func)
     def wrapper(*args, **kwargs):
         try:
@@ -64,3 +64,15 @@ def is_permissions(func):
         except:
             return {"ERROR": "DB_ERROR"}
     return wrapper
+
+
+def set_key(key, value):
+    r.set(key, value)
+
+
+def delete_key(name):
+    r.delete(name)
+
+
+def get_key(name):
+    return r.get(name)

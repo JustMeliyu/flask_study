@@ -36,7 +36,8 @@ errcode = {
     "ERROR_FILE": 1010,
     "ERROR_FILE_CONTENT": 1011,
     "AUTHOR_NOT_EXIST": 1012,
-    "PERMISSION_DENIED": 1013
+    "PERMISSION_DENIED": 1013,
+    "FILE_UPLOADING": 1014
 }
 
 errmsg = {
@@ -53,7 +54,8 @@ errmsg = {
     "ERROR_FILE": u"错误文件",
     "ERROR_FILE_CONTENT": u"错误文件内容",
     "AUTHOR_NOT_EXIST": u"作者不存在",
-    "PERMISSION_DENIED": u"权限不足"
+    "PERMISSION_DENIED": u"权限不足",
+    "FILE_UPLOADING": u"文件正在上传"
 }
 
 article_key_cn = [u"作者", u"标题", u"类型", u"内容", u"发布日期"]
