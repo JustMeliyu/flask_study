@@ -1,6 +1,6 @@
 # encoding:utf-8
 import config
-from flask import Response, json
+from flask import Response, json, request
 from datetime import datetime, date, time
 from decimal import Decimal
 
@@ -36,3 +36,8 @@ def class_to_dict(obj):
     return dic
 
 
+def get_data(param):
+    if request.method in ["POST", "PUT"]:
+        if hasattr(request, "json") and request.json:
+            return request.get_json(silent=True).get(param)
+    return request.values.get(param)

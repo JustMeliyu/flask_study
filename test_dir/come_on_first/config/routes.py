@@ -11,7 +11,8 @@ routes = {
     "/login": auth,
     "/register": register,
     "/article": article,
-    "/comment": comment
+    "/comment": comment,
+    "/g_test": g_test
 }
 # register blueprints, include template
 # routes = {

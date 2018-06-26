@@ -54,9 +54,7 @@ def is_admin(func):
     def wrapper(*args, **kwargs):
         try:
             user_info = r.hgetall(g.token)
-            print(user_info)
             user_per = int(user_info.get('permissions'))
-            print(user_per)
             if user_per != c_data.user_per.get("admin"):
                 return {"ERROR": "PERMISSION_DENIED"}
             dada = func(*args, **kwargs)

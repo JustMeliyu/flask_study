@@ -1,6 +1,6 @@
 # encoding:utf-8
 import os
-# DEBUG = True
+DEBUG = True
 
 SECRET_KEY = os.urandom(24)
 
@@ -74,9 +74,10 @@ user_per = {
     "other": 0,
 }
 
-
+root_path = os.getcwd()
 file_path = {
-    "download": "file/download",
-    "upload": "file/upload"
+    "download": os.path.join(root_path, "file/download"),
+    "upload": os.path.join(root_path, "file/upload"),
+    "read": os.path.join(root_path, "file/read")
 }
 

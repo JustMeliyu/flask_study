@@ -17,8 +17,7 @@ def get_comment():
     result = get_page_comment(page_index, page_size, article_id)
     if result.get("ERROR"):
         return jsonify(get_result(result.get("ERROR"), {}))
-    else:
-        return jsonify(get_result("SUCCESS", result.get("DATA")))
+    return jsonify(get_result("SUCCESS", result.get("DATA")))
 
 
 @comment.route("/publish", methods=["POST"])
@@ -34,5 +33,4 @@ def publish_comment():
     result = p_comment(content, article_id)
     if result.get("ERROR"):
         return jsonify(get_result(result.get("ERROR"), {}))
-    else:
-        return jsonify(get_result("SUCCESS", result.get("DATA")))
+    return jsonify(get_result("SUCCESS", result.get("DATA")))

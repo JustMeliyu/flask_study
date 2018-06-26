@@ -22,6 +22,5 @@ def login():
     result = get_user(telephone, m2.hexdigest())
     if result.get("ERROR"):
         return jsonify(get_result(result.get("ERROR"), {}))
-    else:
-        return jsonify(get_result("SUCCESS", dict({"token": token}, **result.get("DATA"))))
+    return jsonify(get_result("SUCCESS", dict({"token": token}, **result.get("DATA"))))
 

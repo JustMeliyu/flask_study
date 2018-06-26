@@ -28,8 +28,7 @@ def get_article():
     result = get_page_article(page_index, page_size, sort, title, content, article_type)
     if result.get("ERROR"):
         return jsonify(get_result(result.get("ERROR"), {}))
-    else:
-        return jsonify(get_result("SUCCESS", result.get("DATA")))
+    return jsonify(get_result("SUCCESS", result.get("DATA")))
 
 
 # 获取文章详细信息
@@ -38,7 +37,6 @@ def get_article():
 def article_info(article_id):
     try:
         article_dital = Articles.query.filter_by(id=article_id).first()
-        print(type(article_dital.create_time))
         data = {
             "title": article_dital.title,
             "content": article_dital.content,
@@ -68,8 +66,7 @@ def publish_article():
     result = p_article(title, content, article_type)
     if result.get("ERROR"):
         return jsonify(get_result(result.get("ERROR"), {}))
-    else:
-        return jsonify(get_result("SUCCESS", result.get("DATA")))
+    return jsonify(get_result("SUCCESS", result.get("DATA")))
 
 
 # 上传文章
@@ -78,31 +75,30 @@ def publish_article():
 def upload_article():
     fname = request.files.get('file')
     token = request.values.get('token')
+    print(file)
     g.token = token
     if fname:
         is_legal_file = file_is_legal(fname.filename)
         if is_legal_file:
             t = time.strftime('%Y%m%d%H%M%S')
-            # file_path = os.path.join(os.getcwd(), c_data.file_path.get("upload"))
-            new_fpath = c_data.file_path.get("upload") + t + fname.filename
+            new_fpath = os.path.join(c_data.file_path.get("upload"), t + fname.filename)
             fname.save(new_fpath)  # 保存文件到指定路径
             result = get_excel_data(new_fpath)
+            if result.get("ERROR"):
+                return jsonify(get_result(result.get("ERROR"), {}))
+            return jsonify(get_result("SUCCESS", result.get("DATA")))
         else:
             return jsonify(get_result('ERROR_FILE', {}))
     else:
         return jsonify(get_result("NO_FILE", {}))
-    if result.get("ERROR"):
-        return jsonify(get_result(result.get("ERROR"), {}))
-    else:
-        return jsonify(get_result("SUCCESS", result.get("DATA")))
 
 
 @article.route('/download', methods=['POST'])
+@check_params_exist(required=["token"])
 def download_article():
     token = request.values.get('token')
     g.token = token
     result = write_excel()
     if result.get("ERROR"):
         return jsonify(get_result(result.get("ERROR"), {}))
-    else:
-        return jsonify(get_result("SUCCESS", result.get("DATA")))
+    return jsonify(get_result("SUCCESS", result.get("DATA")))

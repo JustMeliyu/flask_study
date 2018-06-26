@@ -10,7 +10,7 @@ from app.helpers.build_redis import *
 import traceback
 from config import logger, db, data as c_data
 from flask import g
-from datetime import datetime, time
+from datetime import datetime
 
 
 # 得到对应页数的文章
@@ -82,23 +82,23 @@ def get_excel_data(file_path):
         return all_article
     except AttributeError:
         # noinspection PyBroadException
-        try:
-            for art in all_article:
-                user = Users.query.filter_by(username=art.get('author')).first()
-                if not user:
-                    delete_key("UPLOADING")
-                    return {"ERROR": "AUTHOR_NOT_EXIST"}
-                article_ditail = Articles(title=art.get('title'),
-                                          content=art.get('content'),
-                                          type=art.get('type'),
-                                          create_time=art.get('create_time'), author=user)
-                db.session.add(article_ditail)
-            db.session.commit()
-        except Exception:
-            delete_key("UPLOADING")
-            db.session.rollback()
-            logger.info(traceback.format_exc())
-            return {"ERROR": "DB_ERROR"}
+        # try:
+        #     for art in all_article:
+        #         user = Users.query.filter_by(username=art.get('author')).first()
+        #         if not user:
+        #             delete_key("UPLOADING")
+        #             return {"ERROR": "AUTHOR_NOT_EXIST"}
+        #         article_ditail = Articles(title=art.get('title'),
+        #                                   content=art.get('content'),
+        #                                   type=art.get('type'),
+        #                                   create_time=art.get('create_time'), author=user)
+        #         db.session.add(article_ditail)
+        #     db.session.commit()
+        # except Exception:
+        #     delete_key("UPLOADING")
+        #     db.session.rollback()
+        #     logger.info(traceback.format_exc())
+        #     return {"ERROR": "DB_ERROR"}
 
         data = {
             "total": len(all_article),
@@ -154,7 +154,7 @@ def get_data(path):
 def write_excel():
     artciles_wb = xlwt.Workbook(encoding='utf-8', style_compression=0)
     articles_sh = artciles_wb.add_sheet("articles")
-    # 设置到处excel单元格格式
+    # 设置导出excel单元格格式
     title_format = xlwt.easyxf("font: name Times New Roman, bold on;\
                                 align: horz center, vert center;\
                                 border: top thick, bottom thick, left thick, right thick")
