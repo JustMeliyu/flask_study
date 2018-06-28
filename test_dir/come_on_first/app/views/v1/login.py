@@ -23,4 +23,3 @@ def login():
     if result.get("ERROR"):
         return jsonify(get_result(result.get("ERROR"), {}))
     return jsonify(get_result("SUCCESS", dict({"token": token}, **result.get("DATA"))))
-

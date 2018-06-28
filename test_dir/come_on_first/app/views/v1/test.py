@@ -1,10 +1,12 @@
 # encoding: utf-8
-
+import app
 import os
 from flask import Blueprint, request, json
-from config import data as c_data
+from config import db, data as c_data
 from app.helpers.tool import *
 from datetime import datetime
+from app.models.articles import Articles
+from app.models.users import Users
 g_test = Blueprint("g_test", __name__)
 
 
@@ -59,3 +61,24 @@ def post_json():
     }
 
     return jsonify(get_result("SUCCESS", data))
+
+
+@g_test.route("/g_t")
+def g_t():
+    # Articles = app.models.articles.Articles
+    # print(Articles)
+    # print(type(Articles))
+    articles = db.session.query(Articles.title).filter_by(id=1)
+    print(articles)
+    print("=======")
+    # article = Articles.query.filter_by(type="movie").all()
+    # print article.author
+    # print article._class
+    u = Users.query.filter_by(id=1).first()
+    print u
+    print u.articles
+    print u.articles.all()
+    return "hello"
+
+
+

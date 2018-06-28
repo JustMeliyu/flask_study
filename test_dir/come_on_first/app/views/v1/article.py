@@ -75,7 +75,6 @@ def publish_article():
 def upload_article():
     fname = request.files.get('file')
     token = request.values.get('token')
-    print(file)
     g.token = token
     if fname:
         is_legal_file = file_is_legal(fname.filename)
@@ -87,10 +86,8 @@ def upload_article():
             if result.get("ERROR"):
                 return jsonify(get_result(result.get("ERROR"), {}))
             return jsonify(get_result("SUCCESS", result.get("DATA")))
-        else:
-            return jsonify(get_result('ERROR_FILE', {}))
-    else:
-        return jsonify(get_result("NO_FILE", {}))
+        return jsonify(get_result('ERROR_FILE', {}))
+    return jsonify(get_result("NO_FILE", {}))
 
 
 @article.route('/download', methods=['POST'])

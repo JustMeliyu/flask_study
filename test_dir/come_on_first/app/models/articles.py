@@ -12,4 +12,4 @@ class Articles(db.Model):
     type = db.Column(db.String(20), nullable=False)
     create_time = db.Column(db.DateTime, default=datetime.now)
     author_id = db.Column(db.Integer, db.ForeignKey('users.id'))
-    author = db.relationship('Users', backref=db.backref('articles'))
+    author = db.relationship('Users', backref=db.backref('articles', lazy="dynamic"), lazy="select")
