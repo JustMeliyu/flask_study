@@ -19,3 +19,17 @@ class Users(db.Model):
         self.password = password
         self.permissions = permissions
         self.create_time = create_time if create_time else datetime.now()
+
+    @staticmethod
+    def new(telephone, username, password, permissions, create_time=None):
+        user = Users(telephone, username, password, permissions, create_time)
+        db.session.add(user)
+        db.session.commit()
+        return user
+
+    def to_dict(self):
+        dic = {}
+        dic.update(self.__dict__)
+        if "_sa_instance_state" in dic:
+            del dic['_sa_instance_state']
+        return dic

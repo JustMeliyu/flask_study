@@ -45,9 +45,7 @@ def p_article(title, content, article_type):
     if len(title) > 30:
         return {"ERROR": "PARAM_ERROR"}
     try:
-        article = Articles(title=title, content=content, type=article_type, author_id=g.current_user_id)
-        db.session.add(article)
-        db.session.commit()
+        article = Articles.new(title, content, article_type, g.current_user_id)
         data = {
             "id": article.id,
             "title": title,

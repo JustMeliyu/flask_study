@@ -6,6 +6,7 @@ from app.models.articles import Articles
 from config import db
 from app.helpers.tool import class_to_dict, jsonify, get_result
 import traceback
+from sqlalchemy import or_
 reload(sys)
 sys.setdefaultencoding('utf-8')
 show_articles = Blueprint('show_articles', __name__)
@@ -22,9 +23,9 @@ def get_articles():
     data = []
     try:
         if condition:
-            query_result = query_result.filter(Articles.title.like('%{}%'.format(condition)) |
-                                               Articles.content.like('%{}%'.format(condition)) |
-                                               Articles.type.like('%{}%'.format(condition)))
+            query_result = query_result.filter(or_(Articles.title.like('%{}%'.format(condition)),
+                                               Articles.content.like('%{}%'.format(condition)),
+                                               Articles.type.like('%{}%'.format(condition))))
         if sort:
             pass
         else:

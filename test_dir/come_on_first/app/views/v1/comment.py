@@ -13,7 +13,7 @@ def get_comment():
     page_size = int(request.values.get('page_size', 10))
     page_index = int(request.values.get('page_index', 1))
     article_id = request.values.get("article_id")
-    # 按条件查询文章
+    # 按条件查询评论
     result = get_page_comment(page_index, page_size, article_id)
     if result.get("ERROR"):
         return jsonify(get_result(result.get("ERROR"), {}))
