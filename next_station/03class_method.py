@@ -33,11 +33,12 @@ class MyClass(object):
 
 o = MyClass()
 # 未装饰的方法还是正常的行为方式，需要当前的类实例（self）作为第一个参数。
-
-o.normal_method
+print 1
+print o.normal_method
+print 2
 # <bound method MyClass.normal_method of <__main__.MyClass instance at 0x7fdd2537ea28>>
 
-o.normal_method()
+print o.normal_method()
 # normal_method((<__main__.MyClass instance at 0x7fdd2537ea28>,),{})
 
 o.normal_method(1, 2, x=3, y=4)
@@ -73,7 +74,7 @@ o.some_property
 # 'properties are nice'
 # “属性”是很好的功能
 
-o.some_property()
+# o.some_property()
 # calling some_property getter(<__main__.MyClass instance at 0x7fb2b70877e8>,(),{})
 # Traceback (most recent call last):
 #   File "<stdin>", line 1, in <module>
@@ -96,7 +97,7 @@ o.some_property
 # calling some_property getter(<__main__.MyClass object at 0x7fb2b7077890>,(),{})
 # 'groovy'
 
-o.some_other_property = "very groovy"
+# o.some_other_property = "very groovy"
 # Traceback (most recent call last):
 #   File "<stdin>", line 1, in <module>
 # AttributeError: can't set attribute
