@@ -7,6 +7,7 @@ from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 from giraffe import Config, Logger
 import data as c_data
+from flask_sso import SSO
 
 
 _current_path = os.path.dirname(__file__)
@@ -37,14 +38,24 @@ logger = Logger.create(
 app = Flask(__name__)
 # app for template
 # app = Flask(__name__, static_folder="../app/static", template_folder="../app/templates")
+print "======"
+print type(app.config)
+for c in app.config:
+    print c
+print "======"
 
-
-app.config.from_object(c_data)
+print "app.config is : %s " % app.config
+# app.config.from_object(c_data)
 app.config['SQLALCHEMY_DATABASE_URI'] = config["MYSQL_DATABASE_URI"]
+print 'SQLALCHEMY_DATABASE_URI is : %s' % app.config['SQLALCHEMY_DATABASE_URI']
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = config["APP_TRACK_MODIFICATIONS"]
 app.config['SQLALCHEMY_ECHO'] = config["APP_ECHO"]
-
+app.config['SSO_ATTRIBUTE_MAP'] = c_data.SSO_ATTRIBUTE_MAP
 db = SQLAlchemy(app)
+ext = SSO(app=app)
 
-
+# @sso.login_handler
+# def login_callback(user_info):
+#     """Store information in session."""
+#     session['user'] = user_info
 # end

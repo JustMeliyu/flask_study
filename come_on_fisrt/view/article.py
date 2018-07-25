@@ -3,12 +3,15 @@
 from flask import Blueprint, render_template, url_for, redirect
 from models import Articles, Comments
 from services.public import class_to_dict
+import os
 
 article = Blueprint('article', __name__,)
 
 
 @article.route('/article/<article_id>', methods=['GET', 'POST'])
 def article_info(article_id):
+    print "===getcwd:", os.getcwd()
+    print "===realpath:", os.path.dirname(os.path.realpath(__file__))
     all_comments = []
     current_article = Articles.query.filter(Articles.id == article_id).first()
     if current_article:
@@ -24,6 +27,7 @@ def article_info(article_id):
             c['author'] = author
             all_comments.append(c)
         return render_template('article.html', article=article_info, comments=all_comments)
+        print(url_for('not_found.not_found_404'))
     else:
         return redirect(url_for('not_found.not_found_404'))
 

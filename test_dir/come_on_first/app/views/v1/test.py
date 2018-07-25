@@ -1,6 +1,6 @@
 # encoding: utf-8
 import os
-from flask import Blueprint, request, json
+from flask import Blueprint, request, json, session, redirect
 from config import db, data as c_data
 from app.helpers.tool import *
 from app.helpers.pagination import paginate
@@ -8,6 +8,7 @@ from datetime import datetime
 from app.models.articles import Articles
 from app.models.users import Users
 from sqlalchemy import func, or_, and_
+
 g_test = Blueprint("g_test", __name__)
 
 
@@ -150,3 +151,6 @@ def r_query():
     return "ok"
 
 
+@g_test.route("/sso")
+def sso_login():
+    pass

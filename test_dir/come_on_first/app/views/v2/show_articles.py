@@ -38,7 +38,6 @@ def get_articles():
         }
         results = jsonify(get_result('SUCCESS', data))
     except:
-        print traceback.format_exc()
         results = jsonify(get_result('DB_ERROR', data))
 
     return results

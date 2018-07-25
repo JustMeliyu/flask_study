@@ -3,7 +3,6 @@
 from app.views.v1 import *
 from config import config
 
-
 # register blueprints
 routes = {
     # url_prefix: blueprint_instance

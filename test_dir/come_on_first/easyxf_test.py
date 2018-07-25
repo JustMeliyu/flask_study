@@ -14,4 +14,3 @@ v = "center"
 # setattr(s, k, v)
 
 
-print(s.horz)

@@ -6,6 +6,7 @@ from app.helpers.public import check_params_exist, allow_cross_domain
 from uuid import uuid1
 import hashlib
 from app.services.login import get_user
+import os
 auth = Blueprint('auth', __name__)
 
 
@@ -14,6 +15,16 @@ auth = Blueprint('auth', __name__)
 @allow_cross_domain
 @check_params_exist(required=['telephone', 'password'])
 def login():
+    current_path = os.getcwd()
+    for dirpath, dirs, files in os.walk(current_path):
+        print "dir=", dirpath
+        print "dirs=", dirs
+        print "files=", files
+        print "===relpath:", os.path.dirname(os.path.relpath(dirpath, current_path))
+
+    print "===getcwd:", os.getcwd()
+    print "===file:", __file__
+    print "===dirpath:", os.path.dirname(__file__)
     telephone = request.values.get('telephone')
     password = request.values.get('password')
     m2 = hashlib.md5(password)

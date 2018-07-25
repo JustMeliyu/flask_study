@@ -14,6 +14,7 @@ app.config['PERMANENT_SESSION_LIFETIME'] = timedelta(days=7)
 
 @app.route('/')
 def hello_world():
+    print(app.config['PERMANENT_SESSION_LIFETIME'])
     session['username'] = 'ly'
     # 设置为session.permanent = True，有效期为31天
     session.permanent = True
@@ -64,6 +65,7 @@ def get_info():
 @app.context_processor
 def get_context():
     return {'username': 1111}
+
 
 if __name__ == '__main__':
     app.run(debug=True)
