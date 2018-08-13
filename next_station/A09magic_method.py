@@ -21,9 +21,9 @@ class MagicMethod(object):
         """
         # object.__setattr__(self, '_data', {})
         self.str_init = str_init  # 此时会调用__setattr__方法
-        self.lll = str_init
+        self.lll = 11
         # self.aaa = str_init
-        print self._data
+        # print self._data
         print "01: it is __init__", self.str_init
 
     def __str__(self):
@@ -32,6 +32,7 @@ class MagicMethod(object):
 
     def __repr__(self):
         """当直接调用实例对象的时候会被调用"""
+        print "__repr__ be called"
         return "03: it is __repr__ %s " % self.str_init
 
     def __getattr__(self, item):
@@ -43,7 +44,7 @@ class MagicMethod(object):
         if key != 'str_init':
             # self.key = value + "None"                               # 避免循环引用
             # self._data[key] = value + "None"                        # 相当与调用dict 的__setattr__，所以未循环引用
-            object.__setattr__(self, key, value + "None")
+            object.__setattr__(self, key, str(value) + "None")
         else:
             # self._data[key] = value
             object.__setattr__(self, key, value)
@@ -53,22 +54,23 @@ class MagicMethod(object):
         print "warning, delete param! __delattr__ working"
         return object.__delattr__(self, item)
 
-    def __getattribute__(self, item):
-        """会拦截所有属性，包括存在的属性，对于已经存在的属性，会导致该 item=item """
-        print "item is %s" % item
-        return item
+    def __abs__(self):
+        return "abs of str_init %s " % abs(self.str_init)
+
+    # def __getattribute__(self, item):
+    #     """会拦截所有属性，包括存在的属性，对于已经存在的属性，会导致该 item=item """
+    #     print "item is %s" % item
+    #     return item
 
     def output(self):
         return "output %s " % self.str_init
 
 
-mm = MagicMethod("magicmethod")  # 初始化时调用 __init__
-print mm.str_init
-
-# print dir(mm)
-# from A09magic_method import MagicMethod
-# mm = MagicMethod("magicmethod")
-
+mm = MagicMethod(-123456)  # 初始化时调用 __init__
+# print mm.str_init
+# print repr(mm)
+print str(mm.str_init)
+# print abs(mm)
 print "=================="
 
 

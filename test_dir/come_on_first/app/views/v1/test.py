@@ -4,10 +4,10 @@ from flask import Blueprint, request, json, session, redirect
 from config import db, data as c_data
 from app.helpers.tool import *
 from app.helpers.pagination import paginate
-from datetime import datetime
+from datetime import datetime, timedelta
 from app.models.articles import Articles
 from app.models.users import Users
-from sqlalchemy import func, or_, and_
+from sqlalchemy import func, or_, and_, text
 
 g_test = Blueprint("g_test", __name__)
 
@@ -121,8 +121,10 @@ def r_query():
     # and or
     r4 = Articles.query.filter(or_(Articles.id == 1, Articles.id == 2))
     r5 = Articles.query.filter(and_(Articles.id == 1, Articles.author_id == 1))
+    r55 = Articles.query.filter(Articles.id == 1, Articles.author_id == 1)
     print r4
-    print r5
+    print "r5 is : ", r5
+    print "r55 is : ", r55
     print("========")
     # not equals, like, ILKIE, MATCH
     """
@@ -132,12 +134,15 @@ def r_query():
     """
     r1 = Articles.query.filter(Articles.title.match("thon"))
     r6 = Articles.query.filter(Articles.author_id != 1)
+    mm = None
     r7 = Articles.query.filter(Articles.title.like("%{}%".format("python")))
+    r77 = Articles.query.filter(Articles.title.like("%{}%".format(mm)))
     r8 = Articles.query.filter(Articles.title.ilike("%{}%".format("Python")))
     print(r1)
     print(r6)
-    print(r7)
-    print(r8)
+    print "r7 is : ", r7
+    print "r77 is : ", r77
+    print "r8 is : ", r8
     # IN , NOT IN, IS NULL , IS NOT NULL
     print("========")
     r9 = Articles.query.filter(Articles.type.in_(['movie', 'game']))
@@ -148,7 +153,30 @@ def r_query():
     print r10
     print r11
     print r12
+
+    print "============"
+    ll = ['movie', 'game']
+    statement = "type in %s" % str(tuple(ll))
+    r13 = Articles.query.filter(statement).all()
+    now = datetime.now()
+    last_mouth = now - timedelta(days=60)
+    print now, last_mouth
+    print "last_mouth type is :", type(last_mouth)
+    # statement += " and id between %d and %d" % (1, 10)
+    statement += " and create_time between '%s' and '%s'" % (last_mouth, now)
+    r14 = Articles.query.filter(text(statement)).all()
+
+
+    print "r13 is : ", r13
+    # print type(r13[0].to_dict().get('create_time'))
+    for ar in r14:
+        print "===", ar.to_dict()
+    print "r14 is : ", r14
+    # print len(r14)
     return "ok"
+
+
+
 
 
 @g_test.route("/sso")

@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8bbcc388-fce1-4f53-b724-18afb75cf12f" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/../come_on_fisrt/migrations/versions/603e1d8a2f1c_.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../come_on_fisrt/migrations/versions/a53b6ae8fba4_.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../come_on_fisrt/migrations/versions/c948423f7eb9_.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../next_station/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../next_station/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/../next_station/01object_address.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../next_station/02magic.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../next_station/03class_method.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../next_station/04Fibonacci.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../next_station/05and_or.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../next_station/06lambda.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../next_station/A09magic_method.py" afterPath="$PROJECT_DIR$/../next_station/A09magic_method.py" />
+      <change beforePath="$PROJECT_DIR$/../test_dir/come_on_first/app/services/article.py" afterPath="$PROJECT_DIR$/../test_dir/come_on_first/app/services/article.py" />
+      <change beforePath="$PROJECT_DIR$/../test_dir/come_on_first/app/templates/__init__.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../test_dir/come_on_first/app/views/v1/article.py" afterPath="$PROJECT_DIR$/../test_dir/come_on_first/app/views/v1/article.py" />
+      <change beforePath="$PROJECT_DIR$/../test_dir/come_on_first/app/views/v1/publish_article.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../test_dir/come_on_first/app/views/v1/test.py" afterPath="$PROJECT_DIR$/../test_dir/come_on_first/app/views/v1/test.py" />
+      <change beforePath="$PROJECT_DIR$/../test_dir/come_on_first/config/initializer.py" afterPath="$PROJECT_DIR$/../test_dir/come_on_first/config/initializer.py" />
+      <change beforePath="$PROJECT_DIR$/../test_dir/come_on_first/file/20180619174230test.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../test_dir/come_on_first/file/20180620110724文章列表.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../test_dir/come_on_first/file/20180620110752文章列表.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../test_dir/come_on_first/file/20180620133608文章列表.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../test_dir/come_on_first/file/20180620133732文章列表.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../test_dir/come_on_first/file/20180620133921文章列表.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../test_dir/come_on_first/file/20180620134024文章列表.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../test_dir/come_on_first/file/20180620134337文章列表.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../test_dir/come_on_first/file/20180620142738文章列表.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../test_dir/come_on_first/file/20180620142811文章列表.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../test_dir/come_on_first/file/20180620143030文章列表.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../test_dir/come_on_first/file/20180620143157文章列表.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../test_dir/come_on_first/file/20180620144454文章列表.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../test_dir/come_on_first/file/20180620145844文章列表.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../test_dir/come_on_first/file/20180620152000文章列表.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../test_dir/come_on_first/file/20180620152041文章列表.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../test_dir/come_on_first/file/20180620152449文章列表.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../test_dir/come_on_first/file/20180620152731文章列表.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../test_dir/come_on_first/file/20180620152847文章列表.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../test_dir/come_on_first/file/20180620153021文章列表.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../test_dir/come_on_first/file/20180620153035文章列表.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../test_dir/come_on_first/file/20180620160656文章列表.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../test_dir/come_on_first/file/20180620161101文章列表.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../test_dir/come_on_first/file/20180620161134文章列表.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../test_dir/come_on_first/file/20180620161303文章列表.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../test_dir/come_on_first/file/20180620161626文章列表.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../test_dir/come_on_first/file/20180620161805文章列表.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../test_dir/come_on_first/file/20180620162004文章列表.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../test_dir/come_on_first/file/20180620163239文章列表.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../test_dir/come_on_first/file/20180620165016文章列表.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../test_dir/come_on_first/file/20180620172850文章列表.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../test_dir/come_on_first/file/20180620174025文章列表.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../test_dir/come_on_first/file/20180620174242文章列表.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../test_dir/come_on_first/file/20180620174442文章列表.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../test_dir/come_on_first/file/20180620180327文章列表.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../test_dir/come_on_first/file/20180620180726文章列表.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../test_dir/come_on_first/file/download/20180622114318" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../test_dir/come_on_first/file/download/test.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../test_dir/come_on_first/file/upload20180621165358文章列表.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../test_dir/come_on_first/file/upload20180621165415文章列表.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../test_dir/come_on_first/file/upload20180621165425文章列表.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../test_dir/come_on_first/migrations/versions/20180613181135_aaa.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../test_dir/come_on_first/server.py" afterPath="$PROJECT_DIR$/../test_dir/come_on_first/server.py" />
+      <change beforePath="$PROJECT_DIR$/../test_dir/come_on_first/test.py" afterPath="$PROJECT_DIR$/../test_dir/come_on_first/test.py" />
+      <change beforePath="$PROJECT_DIR$/../untitled/untitled.py" afterPath="" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/untitled2$untitled2.coverage" NAME="untitled2 Coverage Results" MODIFIED="1533629332622" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="untitled2.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/untitled2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="6" column="12" lean-forward="false" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Flask Main" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/untitled2.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="21" />
+    <option name="y" value="46" />
+    <option name="width" value="1391" />
+    <option name="height" value="715" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="untitled2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="untitled2" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="untitled2" type="PythonConfigurationType" factoryName="Python" singleton="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="untitled2" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/untitled2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8bbcc388-fce1-4f53-b724-18afb75cf12f" name="Default" comment="" />
+      <created>1533629003491</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1533629003491</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-2" y="25" width="1684" height="1005" extended-state="6" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32906976" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32906976" sideWeight="0.502439" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32906976" sideWeight="0.49756098" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32906976" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32906976" sideWeight="0.49756098" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25304878" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/untitled2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/untitled2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="12" lean-forward="false" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

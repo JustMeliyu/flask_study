@@ -1,49 +1,19 @@
-import re
-# re.split()
+import sys
 
-print "==================="
-s = "abc aa;bb,cc | dd(xx).xxx 12.12'	xxxx"
-s_s = s.split(" ")
-print "str split is : ", s_s
+aa = __import__("app.services", {}, {}, ['go_test'])
+# print aa.path
+# from app import views
+bb = getattr(aa, "go_test")
+print "bb is : ", bb
 
-r_s = re.split(r"[ ]", s)
-print "re split is : ", re.split(r" ", s)
-print "re split is : ", r_s
+print aa
+print dir()
+print sys.modules["app.services.go_test"]
+aa.go_test.g_te()
+# aa.article.Articles()
+# aa.services.go_test.g_te()
+print "+++++++++++"
+__import__("g_test")
+print sys.modules["g_test"]
+print dir()
 
-r_s2 = re.split(r"[\s]", s)
-
-print "re split is : ", r_s2
-
-
-
-
-
-
-
-print "==================="
-
-a = 1234
-if not a:
-    print "aaaaa"
-else:
-    print "bbbbbbbb"
-b = {
-    "aa": 1,
-    "bb": 2,
-    "cc": 0
-}
-
-print b.values()
-
-c = "aaaa"
-print int(-1)
-print b.get("cc")
-print b.get("cc") or b.get("bb")
-
-d = b.get("dd") or 1
-print d
-
-if b.get("cc"):
-    print b.get("cc")
-else:
-    print "+++"

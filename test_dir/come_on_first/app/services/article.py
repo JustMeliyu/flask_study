@@ -26,6 +26,7 @@ def get_page_article(page_index, page_size, sort, title, content, article_type):
         if article_type:
             query_result = query_result.filter(Articles.type.like('%{}%'.format(article_type)))
         paginate = query_result.paginate(page_index, page_size, False)
+        print "total is ", paginate.total
         data = {
             "total": len(paginate.items),
             "data": [class_to_dict(item) for item in paginate.items]

@@ -3,7 +3,7 @@ import os
 import time
 import traceback
 import sys
-from flask import Blueprint, request, g
+from flask import Blueprint, request, g, url_for
 from app.helpers.public import check_params_exist, jsonify, get_result, allow_cross_domain
 from app.services.article import get_page_article, p_article, file_is_legal, get_excel_data, write_excel
 from app.models.articles import Articles
@@ -18,6 +18,7 @@ sys.setdefaultencoding('utf-8')
 @allow_cross_domain
 @check_params_exist()
 def get_article():
+    print "request path is : ", request.path
     page_size = int(request.values.get('page_size', 10))
     page_index = int(request.values.get('page_index', 1))
     sort = request.values.get('sort')
