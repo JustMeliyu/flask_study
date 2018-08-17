@@ -32,14 +32,10 @@ logger = Logger.create(
 )
 
 # initialize application instances
-app = Flask(__name__)
+# app = Flask(__name__)
 
 # app for template
-# app = Flask(__name__, static_folder="../app/static", template_folder="../app/templates")
-print "========="
-print sys.modules.keys()
-print "c_data dir is : ", dir(c_data)
-print "========="
+app = Flask(__name__, static_folder="../app/static", template_folder="../app/templates")
 app.config.from_object(c_data)
 app.config['SQLALCHEMY_DATABASE_URI'] = config["MYSQL_DATABASE_URI"]
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = config["APP_TRACK_MODIFICATIONS"]

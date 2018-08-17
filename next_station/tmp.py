@@ -1,26 +1,30 @@
-from celery import Celery
-import time
-BROKER_URL = "redis://:@localhost:6379/1"
-CELERY_RESULT_BACKEND = "redis://:@localhost:6379/2"
+a = 1
+
+print("out_fun {}".format(id(a)))
 
 
-app = Celery('tmp', broker=BROKER_URL, backend=CELERY_RESULT_BACKEND)
-# from tasks import app
+def fun1(a):
+    print("func_in {}".format(id(a)))
+    a = 2
+    print("re_point {}, {}".format(id(a), id(2)))
 
-x = app.send_task('tasks.add', args=[1, 14], queue="first_task_queue")
-n = 1
-print x.ready(),
-print x.status
-print "==="
-while x.status == "PENDING":
-    time.sleep(1)
-    print n,
-    print x.ready(),
-    print x.status,
-    print "\n"
-    n += 1
-# time.sleep(15)
-print "==="
-print x.ready()
-print x.status
-print x.get()
+
+print "func_out", id(a), id(1)
+fun1(a)
+print a  # 1
+print("===========")
+a = []
+
+
+def fun2(a):
+    print "func_in", id(a)
+    a.append(1)
+    print "func_in", id(a)
+    a = [1, 2, 3]
+    print "func_in", id(a)
+
+
+print "func_out", id(a)
+fun2(a)
+print "func_out", id(a)
+print a  # [1]

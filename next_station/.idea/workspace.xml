@@ -1,7 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3a60c420-febd-4166-9191-09eb65996988" name="Default" comment="" />
+    <list default="true" id="3a60c420-febd-4166-9191-09eb65996988" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/big_or_home/codingonway/B02dict_sort.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/big_or_home/codingonway/B03remove_duplication.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/big_or_home/codingonway/B04tree.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/big_or_home/codingonway/B05symmetry_tree.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/big_or_home/codingonway/B06balanced_tree.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/big_or_home/codingonway/B07ergodic_tree.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/big_or_home/codingonway/B08dict.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/big_or_home/codingonway/B09fibonacci.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/big_or_home/codingonway/B10jump.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/big_or_home/codingonway/B11stacks_queue.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/big_or_home/codingonway/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/big_or_home/github/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/big_or_home/github/python_features/C01old_new_class.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/big_or_home/github/python_features/C02Singleton.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/big_or_home/github/python_features/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/../come_on_fisrt/migrations/versions/603e1d8a2f1c_.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../come_on_fisrt/migrations/versions/a53b6ae8fba4_.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../come_on_fisrt/migrations/versions/c948423f7eb9_.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/01object_address.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/02magic.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/03class_method.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/04Fibonacci.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/05and_or.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/06lambda.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/tmp.py" afterPath="$PROJECT_DIR$/tmp.py" />
+      <change beforePath="$PROJECT_DIR$/../test_dir/come_on_first/app/templates/__init__.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../test_dir/come_on_first/app/views/v1/publish_article.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../test_dir/come_on_first/app/views/v2/article.py" afterPath="$PROJECT_DIR$/../test_dir/come_on_first/app/views/v2/article.py" />
+      <change beforePath="$PROJECT_DIR$/../test_dir/come_on_first/config/app.yml" afterPath="$PROJECT_DIR$/../test_dir/come_on_first/config/app.yml" />
+      <change beforePath="$PROJECT_DIR$/../test_dir/come_on_first/config/initializer.py" afterPath="$PROJECT_DIR$/../test_dir/come_on_first/config/initializer.py" />
+      <change beforePath="$PROJECT_DIR$/../test_dir/come_on_first/config/routes.py" afterPath="$PROJECT_DIR$/../test_dir/come_on_first/config/routes.py" />
+      <change beforePath="$PROJECT_DIR$/../test_dir/come_on_first/file/20180619174230test.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../test_dir/come_on_first/file/20180620110724文章列表.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../test_dir/come_on_first/file/20180620110752文章列表.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../test_dir/come_on_first/file/20180620133608文章列表.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../test_dir/come_on_first/file/20180620133732文章列表.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../test_dir/come_on_first/file/20180620133921文章列表.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../test_dir/come_on_first/file/20180620134024文章列表.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../test_dir/come_on_first/file/20180620134337文章列表.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../test_dir/come_on_first/file/20180620142738文章列表.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../test_dir/come_on_first/file/20180620142811文章列表.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../test_dir/come_on_first/file/20180620143030文章列表.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../test_dir/come_on_first/file/20180620143157文章列表.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../test_dir/come_on_first/file/20180620144454文章列表.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../test_dir/come_on_first/file/20180620145844文章列表.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../test_dir/come_on_first/file/20180620152000文章列表.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../test_dir/come_on_first/file/20180620152041文章列表.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../test_dir/come_on_first/file/20180620152449文章列表.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../test_dir/come_on_first/file/20180620152731文章列表.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../test_dir/come_on_first/file/20180620152847文章列表.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../test_dir/come_on_first/file/20180620153021文章列表.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../test_dir/come_on_first/file/20180620153035文章列表.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../test_dir/come_on_first/file/20180620160656文章列表.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../test_dir/come_on_first/file/20180620161101文章列表.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../test_dir/come_on_first/file/20180620161134文章列表.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../test_dir/come_on_first/file/20180620161303文章列表.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../test_dir/come_on_first/file/20180620161626文章列表.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../test_dir/come_on_first/file/20180620161805文章列表.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../test_dir/come_on_first/file/20180620162004文章列表.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../test_dir/come_on_first/file/20180620163239文章列表.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../test_dir/come_on_first/file/20180620165016文章列表.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../test_dir/come_on_first/file/20180620172850文章列表.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../test_dir/come_on_first/file/20180620174025文章列表.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../test_dir/come_on_first/file/20180620174242文章列表.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../test_dir/come_on_first/file/20180620174442文章列表.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../test_dir/come_on_first/file/20180620180327文章列表.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../test_dir/come_on_first/file/20180620180726文章列表.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../test_dir/come_on_first/file/download/20180622114318" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../test_dir/come_on_first/file/download/test.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../test_dir/come_on_first/file/upload20180621165358文章列表.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../test_dir/come_on_first/file/upload20180621165415文章列表.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../test_dir/come_on_first/file/upload20180621165425文章列表.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../test_dir/come_on_first/migrations/versions/20180613181135_aaa.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../untitled/untitled.py" afterPath="" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,50 +89,43 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/next_station$A13os_fork.coverage" NAME="A13os_fork Coverage Results" MODIFIED="1534144310475" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/next_station$tasks.coverage" NAME="tasks Coverage Results" MODIFIED="1533794221820" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/next_station$C02Singleton.coverage" NAME="C02Singleton Coverage Results" MODIFIED="1534412046278" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/big_or_home/github/python_features" />
     <SUITE FILE_PATH="coverage/next_station$A10json.coverage" NAME="A10json Coverage Results" MODIFIED="1533799141222" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/next_station$A18generator4.coverage" NAME="A18generator4 Coverage Results" MODIFIED="1534235845166" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/B01generator" />
-    <SUITE FILE_PATH="coverage/next_station$05and_or.coverage" NAME="05and_or Coverage Results" MODIFIED="1532426169393" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/next_station$B11stacks_queue.coverage" NAME="B11stacks_queue Coverage Results" MODIFIED="1534476661994" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/big_or_home/codingonway" />
     <SUITE FILE_PATH="coverage/next_station$A09magic_method.coverage" NAME="A09magic_method Coverage Results" MODIFIED="1534141010265" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/next_station$A12sys_os.coverage" NAME="A12sys_os Coverage Results" MODIFIED="1534143820119" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/next_station$A16generator2.coverage" NAME="A16generator2 Coverage Results" MODIFIED="1534215843773" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/next_station$A11mro.coverage" NAME="A11mro Coverage Results" MODIFIED="1533866860801" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/next_station$03class_method.coverage" NAME="03class_method Coverage Results" MODIFIED="1532488534892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/next_station$A15generator.coverage" NAME="A15generator Coverage Results" MODIFIED="1534212982443" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/next_station$04Fibonacci.coverage" NAME="04Fibonacci Coverage Results" MODIFIED="1532424735194" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/next_station$A14tuple.coverage" NAME="A14tuple Coverage Results" MODIFIED="1534156159678" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/next_station$A04Fibonacci.coverage" NAME="A04Fibonacci Coverage Results" MODIFIED="1534152182283" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/next_station$B06balanced_tree.coverage" NAME="B06balanced_tree Coverage Results" MODIFIED="1534397838228" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/big_or_home/codingonway" />
+    <SUITE FILE_PATH="coverage/next_station$B02dict_sort.coverage" NAME="B02dict_sort Coverage Results" MODIFIED="1534321302900" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/big_or_home" />
     <SUITE FILE_PATH="coverage/next_station$06lambda.coverage" NAME="06lambda Coverage Results" MODIFIED="1532427732381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/next_station$tmp.coverage" NAME="tmp Coverage Results" MODIFIED="1533868857857" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/next_station$tmp.coverage" NAME="tmp Coverage Results" MODIFIED="1534324711114" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/next_station$07apihelper.coverage" NAME="07apihelper Coverage Results" MODIFIED="1532501398645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/next_station$C01old_new_class.coverage" NAME="C01old_new_class Coverage Results" MODIFIED="1534407665090" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/big_or_home/github/python_features" />
+    <SUITE FILE_PATH="coverage/next_station$B08dict.coverage" NAME="B08dict Coverage Results" MODIFIED="1534472860407" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/big_or_home/codingonway" />
+    <SUITE FILE_PATH="coverage/next_station$tasks.coverage" NAME="tasks Coverage Results" MODIFIED="1533794221820" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/next_station$A22super.coverage" NAME="A22super Coverage Results" MODIFIED="1534311446870" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/next_station$A09fibonacci.coverage" NAME="A09fibonacci Coverage Results" MODIFIED="1534475019403" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/big_or_home/codingonway" />
+    <SUITE FILE_PATH="coverage/next_station$A18generator4.coverage" NAME="A18generator4 Coverage Results" MODIFIED="1534235845166" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/B01generator" />
+    <SUITE FILE_PATH="coverage/next_station$05and_or.coverage" NAME="05and_or Coverage Results" MODIFIED="1532426169393" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/next_station$A01bottle.coverage" NAME="A01bottle Coverage Results" MODIFIED="1534317462383" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/big_or_home" />
+    <SUITE FILE_PATH="coverage/next_station$A12sys_os.coverage" NAME="A12sys_os Coverage Results" MODIFIED="1534143820119" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/next_station$B07ergodic_tree.coverage" NAME="B07ergodic_tree Coverage Results" MODIFIED="1534404762574" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/big_or_home/codingonway" />
+    <SUITE FILE_PATH="coverage/next_station$A20threading.coverage" NAME="A20threading Coverage Results" MODIFIED="1534304129791" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/B01generator" />
+    <SUITE FILE_PATH="coverage/next_station$B03remove_duplication.coverage" NAME="B03remove_duplication Coverage Results" MODIFIED="1534322849333" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/big_or_home" />
+    <SUITE FILE_PATH="coverage/next_station$B05symmetry_tree.coverage" NAME="B05symmetry_tree Coverage Results" MODIFIED="1534388843017" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/big_or_home/codingonway" />
+    <SUITE FILE_PATH="coverage/next_station$A04Fibonacci.coverage" NAME="A04Fibonacci Coverage Results" MODIFIED="1534152182283" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/next_station$B04tree.coverage" NAME="B04tree Coverage Results" MODIFIED="1534386889970" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/big_or_home/codingonway" />
     <SUITE FILE_PATH="coverage/next_station$A17generator3.coverage" NAME="A17generator3 Coverage Results" MODIFIED="1534218322000" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/next_station$A19gevent.coverage" NAME="A19gevent Coverage Results" MODIFIED="1534301171757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="A18generator4.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/B01generator/A18generator4.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-              <folding>
-                <element signature="e#18#29#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="datetime.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.PyCharm2017.3/system/python_stubs/-923448878/datetime.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="512" column="65" lean-forward="false" selection-start-line="512" selection-start-column="65" selection-end-line="512" selection-end-column="77" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="A17generator3.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/B01generator/A17generator3.py">
+      <file leaf-file-name="B10jump.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/big_or_home/codingonway/B10jump.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="17" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="17" />
@@ -63,11 +134,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/B01generator/__init__.py">
+      <file leaf-file-name="B11stacks_queue.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/big_or_home/codingonway/B11stacks_queue.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="1100">
+              <caret line="55" column="12" lean-forward="true" selection-start-line="55" selection-start-column="12" selection-end-line="55" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -87,6 +158,9 @@
       <find>生成</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -101,7 +175,6 @@
         <option value="$PROJECT_DIR$/A10celery.py" />
         <option value="$PROJECT_DIR$/A10json.py" />
         <option value="$PROJECT_DIR$/A11mro.py" />
-        <option value="$PROJECT_DIR$/tmp.py" />
         <option value="$PROJECT_DIR$/tasks.py" />
         <option value="$PROJECT_DIR$/A13os_fork.py" />
         <option value="$PROJECT_DIR$/A12sys_os.py" />
@@ -114,6 +187,28 @@
         <option value="$PROJECT_DIR$/B01generator/__init__.py" />
         <option value="$PROJECT_DIR$/B01generator/e.txt" />
         <option value="$PROJECT_DIR$/B01generator/A18generator4.py" />
+        <option value="$PROJECT_DIR$/A19gevent.py" />
+        <option value="$PROJECT_DIR$/B01generator/A20threading.py" />
+        <option value="$PROJECT_DIR$/B01generator/A21threading1.py" />
+        <option value="$PROJECT_DIR$/A22super.py" />
+        <option value="$PROJECT_DIR$/big_or_home/A01bottle.py" />
+        <option value="$PROJECT_DIR$/big_or_home/B01bottle.py" />
+        <option value="$PROJECT_DIR$/big_or_home/B03remove_duplication.py" />
+        <option value="$PROJECT_DIR$/big_or_home/B02dict_sort.py" />
+        <option value="$PROJECT_DIR$/tmp.py" />
+        <option value="$PROJECT_DIR$/big_or_home/codingonway/B04tree.py" />
+        <option value="$PROJECT_DIR$/big_or_home/codingonway/B05symnetry_tree.py" />
+        <option value="$PROJECT_DIR$/big_or_home/codingonway/B05symmetry_tree.py" />
+        <option value="$PROJECT_DIR$/big_or_home/codingonway/B06balanced_tree.py" />
+        <option value="$PROJECT_DIR$/big_or_home/codingonway/B07ergodic_tree.py" />
+        <option value="$PROJECT_DIR$/big_or_home/github/python_features/C01old_new_class.py" />
+        <option value="$PROJECT_DIR$/big_or_home/github/python_features/C02Singleton.py" />
+        <option value="$PROJECT_DIR$/big_or_home/codingonway/B08dict.py" />
+        <option value="$PROJECT_DIR$/big_or_home/codingonway/A09fibonacci.py" />
+        <option value="$PROJECT_DIR$/big_or_home/codingonway/B20jump.py" />
+        <option value="$PROJECT_DIR$/big_or_home/codingonway/B09fibonacci.py" />
+        <option value="$PROJECT_DIR$/big_or_home/codingonway/B10jump.py" />
+        <option value="$PROJECT_DIR$/big_or_home/codingonway/B11stacks_queue.py" />
       </list>
     </option>
   </component>
@@ -148,6 +243,7 @@
       </profile-state>
     </entry>
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -173,7 +269,26 @@
             <path>
               <item name="next_station" type="b2602c69:ProjectViewProjectNode" />
               <item name="next_station" type="462c0819:PsiDirectoryNode" />
-              <item name="B01generator" type="462c0819:PsiDirectoryNode" />
+              <item name="big_or_home" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="next_station" type="b2602c69:ProjectViewProjectNode" />
+              <item name="next_station" type="462c0819:PsiDirectoryNode" />
+              <item name="big_or_home" type="462c0819:PsiDirectoryNode" />
+              <item name="codingonway" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="next_station" type="b2602c69:ProjectViewProjectNode" />
+              <item name="next_station" type="462c0819:PsiDirectoryNode" />
+              <item name="big_or_home" type="462c0819:PsiDirectoryNode" />
+              <item name="github" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="next_station" type="b2602c69:ProjectViewProjectNode" />
+              <item name="next_station" type="462c0819:PsiDirectoryNode" />
+              <item name="big_or_home" type="462c0819:PsiDirectoryNode" />
+              <item name="github" type="462c0819:PsiDirectoryNode" />
+              <item name="python_features" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -190,6 +305,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/big_or_home/codingonway" />
       <recent name="$PROJECT_DIR$/B01generator" />
     </key>
   </component>
@@ -205,116 +321,116 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.A18generator4">
-    <configuration name="A14tuple" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.B11stacks_queue">
+    <configuration name="A09fibonacci" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/big_or_home/codingonway" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="next_station" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/A14tuple.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/big_or_home/codingonway/B09fibonacci.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="A15generator" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="B08dict" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/big_or_home/codingonway" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="next_station" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/B01generator/A15generator.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/big_or_home/codingonway/B08dict.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="A16generator2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="B11stacks_queue" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/big_or_home/codingonway" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="next_station" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/B01generator/A16generator2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/big_or_home/codingonway/B11stacks_queue.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="A17generator3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="C01old_new_class" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/big_or_home/github/python_features" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="next_station" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/B01generator/A17generator3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/big_or_home/github/python_features/C01old_new_class.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="A18generator4" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="C02Singleton" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/B01generator" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/big_or_home/github/python_features" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="next_station" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/B01generator/A18generator4.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/big_or_home/github/python_features/C02Singleton.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.A14tuple" />
-      <item index="1" class="java.lang.String" itemvalue="Python.A15generator" />
-      <item index="2" class="java.lang.String" itemvalue="Python.A16generator2" />
-      <item index="3" class="java.lang.String" itemvalue="Python.A17generator3" />
-      <item index="4" class="java.lang.String" itemvalue="Python.A18generator4" />
+      <item index="0" class="java.lang.String" itemvalue="Python.C01old_new_class" />
+      <item index="1" class="java.lang.String" itemvalue="Python.C02Singleton" />
+      <item index="2" class="java.lang.String" itemvalue="Python.B08dict" />
+      <item index="3" class="java.lang.String" itemvalue="Python.A09fibonacci" />
+      <item index="4" class="java.lang.String" itemvalue="Python.B11stacks_queue" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.A18generator4" />
-        <item index="1" class="java.lang.String" itemvalue="Python.A17generator3" />
-        <item index="2" class="java.lang.String" itemvalue="Python.A16generator2" />
-        <item index="3" class="java.lang.String" itemvalue="Python.A15generator" />
-        <item index="4" class="java.lang.String" itemvalue="Python.A14tuple" />
+        <item index="0" class="java.lang.String" itemvalue="Python.B11stacks_queue" />
+        <item index="1" class="java.lang.String" itemvalue="Python.A09fibonacci" />
+        <item index="2" class="java.lang.String" itemvalue="Python.B08dict" />
+        <item index="3" class="java.lang.String" itemvalue="Python.C02Singleton" />
+        <item index="4" class="java.lang.String" itemvalue="Python.C01old_new_class" />
       </list>
     </recent_temporary>
   </component>
@@ -348,9 +464,9 @@
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32945284" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48953488" sideWeight="0.50731707" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4883721" sideWeight="0.49268293" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4883721" sideWeight="0.50731707" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35697675" sideWeight="0.49268293" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32945284" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15365854" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -359,7 +475,7 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33139536" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -377,173 +493,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="5" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file:///usr/local/python2.7/lib/python2.7/site-packages/celery/worker/request.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5920">
-          <caret line="321" column="8" lean-forward="false" selection-start-line="321" selection-start-column="8" selection-end-line="321" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/python2.7/lib/python2.7/site-packages/celery/app/task.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15700">
-          <caret line="809" column="8" lean-forward="false" selection-start-line="793" selection-start-column="11" selection-end-line="809" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tmp.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="17" column="17" lean-forward="false" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#25#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/python2.7/lib/python2.7/site-packages/celery/app/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12820">
-          <caret line="687" column="28" lean-forward="false" selection-start-line="687" selection-start-column="24" selection-end-line="687" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tasks.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#31#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/python2.7/lib/python2.7/site-packages/celery/worker/request.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5920">
-          <caret line="321" column="8" lean-forward="false" selection-start-line="321" selection-start-column="8" selection-end-line="321" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/python2.7/lib/python2.7/site-packages/celery/app/task.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15700">
-          <caret line="809" column="8" lean-forward="false" selection-start-line="793" selection-start-column="11" selection-end-line="809" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tmp.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="17" column="17" lean-forward="false" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#25#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/python2.7/lib/python2.7/site-packages/celery/app/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12820">
-          <caret line="687" column="28" lean-forward="false" selection-start-line="687" selection-start-column="24" selection-end-line="687" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/A09magic_method.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2017.3/system/python_stubs/-1199944087/__builtin__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="740">
-          <caret line="37" column="4" lean-forward="false" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/A09magic_method.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2017.3/system/python_stubs/-1199944087/__builtin__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="740">
-          <caret line="37" column="4" lean-forward="false" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/A09magic_method.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2017.3/system/python_stubs/-1199944087/__builtin__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="740">
-          <caret line="37" column="4" lean-forward="false" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/A09magic_method.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/A09magic_method.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2017.3/system/python_stubs/-1085923417/__builtin__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="3493" column="21" lean-forward="false" selection-start-line="3493" selection-start-column="14" selection-end-line="3493" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/A08fileinfo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="959">
-          <caret line="51" column="31" lean-forward="false" selection-start-line="51" selection-start-column="31" selection-end-line="51" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2017.3/system/python_stubs/-1199944087/__builtin__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="740">
-          <caret line="37" column="4" lean-forward="false" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/python2.7/lib/python2.7/json/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="351" column="49" lean-forward="false" selection-start-line="351" selection-start-column="49" selection-end-line="351" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/A10json.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
@@ -570,16 +524,6 @@
         <state relative-caret-position="12820">
           <caret line="687" column="28" lean-forward="false" selection-start-line="687" selection-start-column="24" selection-end-line="687" selection-end-column="28" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tmp.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="17" column="17" lean-forward="false" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#25#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -665,14 +609,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2017.3/system/python_stubs/-923448878/__builtin__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="377" column="4" lean-forward="false" selection-start-line="377" selection-start-column="4" selection-end-line="377" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/A04Fibonacci.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="73">
@@ -741,14 +677,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/B01generator/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/B01generator/e.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -765,11 +693,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/B01generator/A17generator3.py">
+    <entry file="file:///usr/local/python2.7/lib/python2.7/site-packages/gevent/greenlet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="848" column="4" lean-forward="false" selection-start-line="848" selection-start-column="4" selection-end-line="848" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/python2.7/lib/python2.7/site-packages/gevent/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="91" column="10" lean-forward="false" selection-start-line="91" selection-start-column="10" selection-end-line="91" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/B01generator/A18generator4.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="17" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="17" />
-          <folding />
+          <folding>
+            <element signature="e#18#29#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -781,13 +727,193 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/B01generator/A18generator4.py">
+    <entry file="file:///usr/local/python2.7/lib/python2.7/site-packages/gevent/hub.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="121" column="4" lean-forward="false" selection-start-line="121" selection-start-column="4" selection-end-line="121" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/A19gevent.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
-          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <caret line="18" column="32" lean-forward="true" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/B01generator/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/B01generator/A17generator3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/A22super.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="27" column="8" lean-forward="true" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/B01generator/A21threading1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="16" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="16" />
           <folding>
-            <element signature="e#18#29#0" expanded="true" />
+            <element signature="e#32#48#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/B01generator/A20threading.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="16" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="16" />
+          <folding>
+            <element signature="e#17#33#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2017.3/system/python_stubs/-923448878/operator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="517" column="8" lean-forward="false" selection-start-line="517" selection-start-column="8" selection-end-line="517" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/big_or_home/codingonway/B01bottle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/big_or_home/codingonway/B03remove_duplication.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="71" lean-forward="false" selection-start-line="3" selection-start-column="71" selection-end-line="3" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/big_or_home/codingonway/B02dict_sort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="15" lean-forward="true" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tmp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2017.3/system/python_stubs/-923448878/__builtin__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="377" column="4" lean-forward="false" selection-start-line="377" selection-start-column="4" selection-end-line="377" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/big_or_home/codingonway/B04tree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="25" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="11" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/big_or_home/codingonway/B05symmetry_tree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="33" column="26" lean-forward="false" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/big_or_home/codingonway/B06balanced_tree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="21" column="35" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="21" selection-end-column="35" />
+          <folding>
+            <element signature="e#412#724#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/big_or_home/codingonway/B07ergodic_tree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="17" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/big_or_home/github/python_features/C01old_new_class.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" column="10" lean-forward="false" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/big_or_home/github/python_features/C02Singleton.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="17" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/big_or_home/codingonway/B08dict.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="17" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/big_or_home/codingonway/B09fibonacci.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="41" column="12" lean-forward="false" selection-start-line="41" selection-start-column="12" selection-end-line="41" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/big_or_home/codingonway/B10jump.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="17" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/big_or_home/codingonway/B11stacks_queue.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1100">
+          <caret line="55" column="12" lean-forward="true" selection-start-line="55" selection-start-column="12" selection-end-line="55" selection-end-column="12" />
+          <folding />
         </state>
       </provider>
     </entry>
