@@ -7,6 +7,9 @@ from flask_sqlalchemy import SQLAlchemy
 from giraffe import Config, Logger
 import data as c_data
 import sys
+# from flask_wtf import CSRFProtect
+from flask_wtf.csrf import CSRFProtect
+# from flask_wtf.csrf import CsrfProtect
 _current_path = os.path.dirname(__file__)
 
 # load configurations
@@ -36,9 +39,12 @@ logger = Logger.create(
 
 # app for template
 app = Flask(__name__, static_folder="../app/static", template_folder="../app/templates")
+CSRFProtect(app)
+# CsrfProtect(app)
 app.config.from_object(c_data)
 app.config['SQLALCHEMY_DATABASE_URI'] = config["MYSQL_DATABASE_URI"]
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = config["APP_TRACK_MODIFICATIONS"]
 app.config['SQLALCHEMY_ECHO'] = config["APP_ECHO"]
 app.config['SSO_ATTRIBUTE_MAP'] = c_data.SSO_ATTRIBUTE_MAP
+app.config['CSRF_ENABLED'] = True
 db = SQLAlchemy(app)

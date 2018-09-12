@@ -2,30 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a60c420-febd-4166-9191-09eb65996988" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/A23Time.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/big_or_home/beauty_coding/BC01_Game/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/big_or_home/beauty_coding/BC02_Num/N01_Binary.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/big_or_home/beauty_coding/BC02_Num/N07_MaxDivisor.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/big_or_home/beauty_coding/BC02_Num/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/big_or_home/beauty_coding/BC03_Structure/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/big_or_home/beauty_coding/BC04_Math/M03_BuyTicket.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/big_or_home/beauty_coding/BC04_Math/M07_ant.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/big_or_home/beauty_coding/BC04_Math/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/big_or_home/beauty_coding/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/big_or_home/codingonway/B14Sort.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/big_or_home/codingonway/B15Anagram.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/big_or_home/codingonway/B16Sum.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/big_or_home/codingonway/B17Chess.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/big_or_home/codingonway/B18Sudoku.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/big_or_home/github/G01_PythonFeatures/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/big_or_home/github/G02_OperatingSystem/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/big_or_home/github/G04_Network/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/big_or_home/github/G05_DataStructure/D01_RedBlackTree.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/big_or_home/github/G05_DataStructure/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/A24Restful_API.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Tree/T01_left_right.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Tree/T02_TreeTrvaersal.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Tree/__init__.py" />
       <change beforePath="$PROJECT_DIR$/../come_on_fisrt/migrations/versions/603e1d8a2f1c_.py" afterPath="" />
       <change beforePath="$PROJECT_DIR$/../come_on_fisrt/migrations/versions/a53b6ae8fba4_.py" afterPath="" />
       <change beforePath="$PROJECT_DIR$/../come_on_fisrt/migrations/versions/c948423f7eb9_.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/01object_address.py" afterPath="" />
       <change beforePath="$PROJECT_DIR$/02magic.py" afterPath="" />
@@ -33,23 +16,13 @@
       <change beforePath="$PROJECT_DIR$/04Fibonacci.py" afterPath="" />
       <change beforePath="$PROJECT_DIR$/05and_or.py" afterPath="" />
       <change beforePath="$PROJECT_DIR$/06lambda.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/big_or_home/github/database/E01Transaction.py" afterPath="$PROJECT_DIR$/big_or_home/github/G03_Database/E01Transaction.py" />
-      <change beforePath="$PROJECT_DIR$/big_or_home/github/database/__init__.py" afterPath="$PROJECT_DIR$/big_or_home/github/G03_Database/__init__.py" />
-      <change beforePath="$PROJECT_DIR$/big_or_home/github/operating_system/D01_IO.py" afterPath="$PROJECT_DIR$/big_or_home/github/G02_OperatingSystem/D01_IO.py" />
-      <change beforePath="$PROJECT_DIR$/big_or_home/github/operating_system/__init__.py" afterPath="$PROJECT_DIR$/big_or_home/github/G06_Code/__init__.py" />
-      <change beforePath="$PROJECT_DIR$/big_or_home/github/python_features/C01old_new_class.py" afterPath="$PROJECT_DIR$/big_or_home/github/G01_PythonFeatures/C01old_new_class.py" />
-      <change beforePath="$PROJECT_DIR$/big_or_home/github/python_features/C02Singleton.py" afterPath="$PROJECT_DIR$/big_or_home/github/G01_PythonFeatures/C02Singleton.py" />
-      <change beforePath="$PROJECT_DIR$/big_or_home/github/python_features/C05GC.py" afterPath="$PROJECT_DIR$/big_or_home/github/G01_PythonFeatures/C05GC.py" />
-      <change beforePath="$PROJECT_DIR$/big_or_home/github/python_features/C06read.py" afterPath="$PROJECT_DIR$/big_or_home/github/G01_PythonFeatures/C06read.py" />
-      <change beforePath="$PROJECT_DIR$/big_or_home/github/python_features/__init__.py" afterPath="$PROJECT_DIR$/big_or_home/beauty_coding/BC02_Num/N02_Factorial.py" />
-      <change beforePath="$PROJECT_DIR$/big_or_home/github/python_features/quote_object/C03copy.py" afterPath="$PROJECT_DIR$/big_or_home/github/G01_PythonFeatures/quote_object/C03copy.py" />
-      <change beforePath="$PROJECT_DIR$/big_or_home/github/python_features/quote_object/C04param.py" afterPath="$PROJECT_DIR$/big_or_home/github/G01_PythonFeatures/quote_object/C04param.py" />
-      <change beforePath="$PROJECT_DIR$/big_or_home/github/python_features/quote_object/C07quote_obejct.py" afterPath="$PROJECT_DIR$/big_or_home/github/G01_PythonFeatures/quote_object/C07quote_obejct.py" />
-      <change beforePath="$PROJECT_DIR$/big_or_home/github/python_features/quote_object/__init__.py" afterPath="$PROJECT_DIR$/big_or_home/github/G01_PythonFeatures/quote_object/__init__.py" />
-      <change beforePath="$PROJECT_DIR$/big_or_home/github/python_features/read.txt" afterPath="$PROJECT_DIR$/big_or_home/github/G01_PythonFeatures/read.txt" />
+      <change beforePath="$PROJECT_DIR$/A03class_method.py" afterPath="$PROJECT_DIR$/A03class_method.py" />
       <change beforePath="$PROJECT_DIR$/tmp.py" afterPath="$PROJECT_DIR$/tmp.py" />
       <change beforePath="$PROJECT_DIR$/../test_dir/come_on_first/app/templates/__init__.py" afterPath="" />
       <change beforePath="$PROJECT_DIR$/../test_dir/come_on_first/app/views/v1/publish_article.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../test_dir/come_on_first/app/views/v2/article.py" afterPath="$PROJECT_DIR$/../test_dir/come_on_first/app/views/v2/article.py" />
+      <change beforePath="$PROJECT_DIR$/../test_dir/come_on_first/app/views/v2/index.py" afterPath="$PROJECT_DIR$/../test_dir/come_on_first/app/views/v2/index.py" />
+      <change beforePath="$PROJECT_DIR$/../test_dir/come_on_first/config/initializer.py" afterPath="$PROJECT_DIR$/../test_dir/come_on_first/config/initializer.py" />
       <change beforePath="$PROJECT_DIR$/../test_dir/come_on_first/file/20180619174230test.txt" afterPath="" />
       <change beforePath="$PROJECT_DIR$/../test_dir/come_on_first/file/20180620110724文章列表.xlsx" afterPath="" />
       <change beforePath="$PROJECT_DIR$/../test_dir/come_on_first/file/20180620110752文章列表.xlsx" afterPath="" />
@@ -92,6 +65,7 @@
       <change beforePath="$PROJECT_DIR$/../test_dir/come_on_first/file/upload20180621165415文章列表.xlsx" afterPath="" />
       <change beforePath="$PROJECT_DIR$/../test_dir/come_on_first/file/upload20180621165425文章列表.xlsx" afterPath="" />
       <change beforePath="$PROJECT_DIR$/../test_dir/come_on_first/migrations/versions/20180613181135_aaa.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../test_dir/come_on_first/server.py" afterPath="$PROJECT_DIR$/../test_dir/come_on_first/server.py" />
       <change beforePath="$PROJECT_DIR$/../untitled/untitled.py" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -112,7 +86,7 @@
     <SUITE FILE_PATH="coverage/next_station$B18Sudoku.coverage" NAME="B18Sudoku Coverage Results" MODIFIED="1535358079899" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/big_or_home/codingonway" />
     <SUITE FILE_PATH="coverage/next_station$A23Time.coverage" NAME="A23Time Coverage Results" MODIFIED="1535611369813" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/next_station$N07_MaxDivisor.coverage" NAME="N07_MaxDivisor Coverage Results" MODIFIED="1535526209986" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/big_or_home/beauty_coding/BC02_Num" />
-    <SUITE FILE_PATH="coverage/next_station$tmp.coverage" NAME="tmp Coverage Results" MODIFIED="1535075410807" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/next_station$tmp.coverage" NAME="tmp Coverage Results" MODIFIED="1536732362612" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/next_station$07apihelper.coverage" NAME="07apihelper Coverage Results" MODIFIED="1532501398645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/next_station$B08dict.coverage" NAME="B08dict Coverage Results" MODIFIED="1534472860407" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/big_or_home/codingonway" />
     <SUITE FILE_PATH="coverage/next_station$tasks.coverage" NAME="tasks Coverage Results" MODIFIED="1533794221820" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -122,6 +96,8 @@
     <SUITE FILE_PATH="coverage/next_station$N02_Factorial.coverage" NAME="N02_Factorial Coverage Results" MODIFIED="1535423968364" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/big_or_home/beauty_coding/BC02_Num" />
     <SUITE FILE_PATH="coverage/next_station$A12sys_os.coverage" NAME="A12sys_os Coverage Results" MODIFIED="1534143820119" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/next_station$B07ergodic_tree.coverage" NAME="B07ergodic_tree Coverage Results" MODIFIED="1534404762574" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/big_or_home/codingonway" />
+    <SUITE FILE_PATH="coverage/next_station$T01_left_right.coverage" NAME="T01_left_right Coverage Results" MODIFIED="1536735850418" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tree" />
+    <SUITE FILE_PATH="coverage/next_station$A03class_method.coverage" NAME="A03class_method Coverage Results" MODIFIED="1536032157806" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/next_station$C07quote_obejct.coverage" NAME="C07quote_obejct Coverage Results" MODIFIED="1534751052003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/big_or_home/github/python_features" />
     <SUITE FILE_PATH="coverage/next_station$B03remove_duplication.coverage" NAME="B03remove_duplication Coverage Results" MODIFIED="1534322849333" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/big_or_home" />
     <SUITE FILE_PATH="coverage/next_station$B05symmetry_tree.coverage" NAME="B05symmetry_tree Coverage Results" MODIFIED="1534388843017" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/big_or_home/codingonway" />
@@ -154,25 +130,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="A23Time.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/A23Time.py">
+      <file leaf-file-name="tmp.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tmp.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="17" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="17" />
-              <folding>
-                <element signature="e#18#997#1" expanded="false" />
-                <element signature="e#999#1014#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="100">
+              <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="D01_RedBlackTree.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/big_or_home/github/G05_DataStructure/D01_RedBlackTree.py">
+      <file leaf-file-name="T01_left_right.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Tree/T01_left_right.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <state relative-caret-position="1220">
+              <caret line="61" column="0" lean-forward="true" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="T02_TreeTrvaersal.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Tree/T02_TreeTrvaersal.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+              <folding>
+                <element signature="e#164#2343#0" expanded="false" />
+                <element signature="e#287#506#0" expanded="false" />
+                <element signature="e#550#763#0" expanded="false" />
+                <element signature="e#809#1024#0" expanded="false" />
+                <element signature="e#2054#2343#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -191,14 +180,22 @@
       <find>生成</find>
       <find>tuple</find>
       <find>head</find>
-      <find>。</find>
-      <find>（</find>
       <find>）</find>
+      <find>classme</find>
+      <find>classmethod</find>
+      <find>staticmethod</find>
+      <find>（</find>
+      <find>。</find>
+      <find>，</find>
+      <find>；</find>
     </findStrings>
     <replaceStrings>
       <replace>prev</replace>
-      <replace>.</replace>
       <replace>)</replace>
+      <replace>(</replace>
+      <replace>.</replace>
+      <replace>,</replace>
+      <replace>;</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -207,10 +204,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/big_or_home/codingonway/B04tree.py" />
-        <option value="$PROJECT_DIR$/big_or_home/codingonway/B05symnetry_tree.py" />
-        <option value="$PROJECT_DIR$/big_or_home/codingonway/B05symmetry_tree.py" />
-        <option value="$PROJECT_DIR$/big_or_home/codingonway/B06balanced_tree.py" />
         <option value="$PROJECT_DIR$/big_or_home/codingonway/B07ergodic_tree.py" />
         <option value="$PROJECT_DIR$/big_or_home/github/python_features/C01old_new_class.py" />
         <option value="$PROJECT_DIR$/big_or_home/github/python_features/C02Singleton.py" />
@@ -241,7 +234,6 @@
         <option value="$PROJECT_DIR$/big_or_home/codingonway/B12linked_list.py" />
         <option value="$PROJECT_DIR$/big_or_home/codingonway/B13Cross_linked_list.py" />
         <option value="$PROJECT_DIR$/big_or_home/codingonway/B15Anagram.py" />
-        <option value="$PROJECT_DIR$/tmp.py" />
         <option value="$PROJECT_DIR$/big_or_home/codingonway/B17Chess.py" />
         <option value="$PROJECT_DIR$/big_or_home/codingonway/B16Sum.py" />
         <option value="$PROJECT_DIR$/big_or_home/codingonway/B18Sudoku.py" />
@@ -258,6 +250,11 @@
         <option value="$PROJECT_DIR$/big_or_home/codingonway/B14Sort.py" />
         <option value="$PROJECT_DIR$/A23Time.py" />
         <option value="$PROJECT_DIR$/big_or_home/github/G05_DataStructure/D01_RedBlackTree.py" />
+        <option value="$PROJECT_DIR$/A24Restful_API.py" />
+        <option value="$PROJECT_DIR$/tmp.py" />
+        <option value="$PROJECT_DIR$/A03class_method.py" />
+        <option value="$PROJECT_DIR$/Tree/T01_left_right.py" />
+        <option value="$PROJECT_DIR$/Tree/T02_TreeTrvaersal.py" />
       </list>
     </option>
   </component>
@@ -268,10 +265,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="277" />
-    <option name="y" value="235" />
-    <option name="width" value="1385" />
-    <option name="height" value="712" />
+    <option name="x" value="21" />
+    <option name="y" value="46" />
+    <option name="width" value="1391" />
+    <option name="height" value="715" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -308,7 +305,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -319,32 +316,13 @@
             <path>
               <item name="next_station" type="b2602c69:ProjectViewProjectNode" />
               <item name="next_station" type="462c0819:PsiDirectoryNode" />
-              <item name="big_or_home" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="next_station" type="b2602c69:ProjectViewProjectNode" />
-              <item name="next_station" type="462c0819:PsiDirectoryNode" />
-              <item name="big_or_home" type="462c0819:PsiDirectoryNode" />
-              <item name="beauty_coding" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="next_station" type="b2602c69:ProjectViewProjectNode" />
-              <item name="next_station" type="462c0819:PsiDirectoryNode" />
-              <item name="big_or_home" type="462c0819:PsiDirectoryNode" />
-              <item name="github" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="next_station" type="b2602c69:ProjectViewProjectNode" />
-              <item name="next_station" type="462c0819:PsiDirectoryNode" />
-              <item name="big_or_home" type="462c0819:PsiDirectoryNode" />
-              <item name="github" type="462c0819:PsiDirectoryNode" />
-              <item name="G05_DataStructure" type="462c0819:PsiDirectoryNode" />
+              <item name="Tree" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -373,7 +351,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.A23Time">
+  <component name="RunManager" selected="Python.T01_left_right">
+    <configuration name="A03class_method" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="next_station" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/A03class_method.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="A23Time" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -412,77 +409,58 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="M07_ant" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="T01_left_right" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/big_or_home/beauty_coding/BC04_Math" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tree" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="next_station" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/big_or_home/beauty_coding/BC04_Math/M07_ant.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tree/T01_left_right.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="N02_Factorial" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="tmp" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/big_or_home/beauty_coding/BC02_Num" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="next_station" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/big_or_home/beauty_coding/BC02_Num/N02_Factorial.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="N07_MaxDivisor" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/big_or_home/beauty_coding/BC02_Num" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="next_station" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/big_or_home/beauty_coding/BC02_Num/N07_MaxDivisor.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tmp.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.N02_Factorial" />
-      <item index="1" class="java.lang.String" itemvalue="Python.M07_ant" />
-      <item index="2" class="java.lang.String" itemvalue="Python.N07_MaxDivisor" />
-      <item index="3" class="java.lang.String" itemvalue="Python.B14Sort" />
-      <item index="4" class="java.lang.String" itemvalue="Python.A23Time" />
+      <item index="0" class="java.lang.String" itemvalue="Python.B14Sort" />
+      <item index="1" class="java.lang.String" itemvalue="Python.A23Time" />
+      <item index="2" class="java.lang.String" itemvalue="Python.tmp" />
+      <item index="3" class="java.lang.String" itemvalue="Python.A03class_method" />
+      <item index="4" class="java.lang.String" itemvalue="Python.T01_left_right" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.A23Time" />
-        <item index="1" class="java.lang.String" itemvalue="Python.B14Sort" />
-        <item index="2" class="java.lang.String" itemvalue="Python.N07_MaxDivisor" />
-        <item index="3" class="java.lang.String" itemvalue="Python.M07_ant" />
-        <item index="4" class="java.lang.String" itemvalue="Python.N02_Factorial" />
+        <item index="0" class="java.lang.String" itemvalue="Python.T01_left_right" />
+        <item index="1" class="java.lang.String" itemvalue="Python.tmp" />
+        <item index="2" class="java.lang.String" itemvalue="Python.A03class_method" />
+        <item index="3" class="java.lang.String" itemvalue="Python.A23Time" />
+        <item index="4" class="java.lang.String" itemvalue="Python.B14Sort" />
       </list>
     </recent_temporary>
   </component>
@@ -512,16 +490,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="277" y="235" width="1684" height="1005" extended-state="6" />
+    <frame x="21" y="46" width="1684" height="1005" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32945284" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3151163" sideWeight="0.5121951" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3511628" sideWeight="0.51463413" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32906976" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2255814" sideWeight="0.4878049" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3511628" sideWeight="0.48536587" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32945284" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16463415" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17012195" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -545,74 +523,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="5" />
+      <option name="time" value="6" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/big_or_home/codingonway/B03remove_duplication.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="71" lean-forward="false" selection-start-line="3" selection-start-column="71" selection-end-line="3" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/big_or_home/codingonway/B02dict_sort.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" column="15" lean-forward="true" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/big_or_home/codingonway/B04tree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="25" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="11" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/big_or_home/codingonway/B05symmetry_tree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="33" column="26" lean-forward="false" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/big_or_home/codingonway/B06balanced_tree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="21" column="35" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="21" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/big_or_home/codingonway/B07ergodic_tree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="17" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/big_or_home/github/G01_PythonFeatures/C01old_new_class.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="1" column="10" lean-forward="false" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/big_or_home/github/G01_PythonFeatures/C02Singleton.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="17" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/big_or_home/codingonway/B08dict.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="17" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/big_or_home/codingonway/B09fibonacci.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="309">
@@ -746,20 +661,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2017.3/system/python_stubs/-923448878/__builtin__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="527" column="4" lean-forward="false" selection-start-line="527" selection-start-column="4" selection-end-line="527" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tmp.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/big_or_home/codingonway/B15Anagram.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -820,7 +721,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="17" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -835,7 +735,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -843,7 +742,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="16" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -851,9 +749,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="15" column="18" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="15" selection-end-column="18" />
-          <folding>
-            <element signature="e#51#78#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -861,7 +756,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
           <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -869,9 +763,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="365">
           <caret line="54" column="23" lean-forward="true" selection-start-line="54" selection-start-column="23" selection-end-line="54" selection-end-column="23" />
-          <folding>
-            <element signature="e#198#225#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -879,7 +770,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="188">
           <caret line="180" column="8" lean-forward="false" selection-start-line="180" selection-start-column="8" selection-end-line="180" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -887,7 +777,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40">
           <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -895,7 +784,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-153">
           <caret line="492" column="8" lean-forward="false" selection-start-line="492" selection-start-column="8" selection-end-line="492" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -903,25 +791,109 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="17" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/A23Time.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="17" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="17" />
-          <folding>
-            <element signature="e#18#997#1" expanded="false" />
-            <element signature="e#999#1014#0" expanded="true" />
-          </folding>
+          <caret line="0" column="17" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/big_or_home/github/G05_DataStructure/D01_RedBlackTree.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state relative-caret-position="200">
+          <caret line="10" column="40" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/A02magic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/A01object_address.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-252">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/A05and_or.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/A04Fibonacci.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2017.3/system/python_stubs/-923448878/__builtin__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="4307" column="8" lean-forward="false" selection-start-line="4307" selection-start-column="8" selection-end-line="4307" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/A24Restful_API.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="17" lean-forward="true" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="1667" column="0" lean-forward="false" selection-start-line="1667" selection-start-column="0" selection-end-line="1667" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/A03class_method.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="79" column="2" lean-forward="false" selection-start-line="79" selection-start-column="2" selection-end-line="79" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tmp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tree/T02_TreeTrvaersal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+          <folding>
+            <element signature="e#164#2343#0" expanded="false" />
+            <element signature="e#287#506#0" expanded="false" />
+            <element signature="e#550#763#0" expanded="false" />
+            <element signature="e#809#1024#0" expanded="false" />
+            <element signature="e#2054#2343#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tree/T01_left_right.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1220">
+          <caret line="61" column="0" lean-forward="true" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
           <folding />
         </state>
       </provider>

@@ -8,7 +8,7 @@ from app.helpers.tool import class_to_dict
 article = Blueprint('article', __name__,)
 
 
-@article.route('<article_id>', methods=['GET', 'POST'])
+@article.route('/<article_id>/', methods=['GET', 'POST'])
 def article_info(article_id):
     all_comments = []
     current_article = Articles.query.filter(Articles.id == article_id).first()
