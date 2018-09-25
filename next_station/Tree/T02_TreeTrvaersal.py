@@ -1,6 +1,21 @@
 # encoding: utf-8
 """
-二叉树的三种便利方法: 先序便利(根左右), 中序便利(左根右), 后序便利(左右根)
+二叉树的三种便利方法:
+先序便利(根左右),
+    首先遍历根节点,
+    然后遍历左子树,
+    最后遍历右子树, 若子树为空则返回, 否则:
+        访问根节点,
+        先序遍历左子树,
+        先序遍历右子树
+中序便利(左根右),
+    首先遍历左子树,
+    然后遍历根节点,
+    最后遍历右子树, 若子树为空则返回, 否则:
+        中序遍历左子树,
+        访问根节点,
+        中序遍历右子树
+后序便利(左右根)
 https://blog.csdn.net/wenkenza5368/article/details/79573333
 """
 
@@ -90,3 +105,13 @@ class TreeTrvaersal(object):
                 queue.append(node.right)
             res.append(node.val)
         return res
+
+
+def s_in_o(tree):
+    if not tree:
+        return []
+    stack = []
+    while stack:
+        if stack[-1].right:
+            stack.append(stack[-1].right)
+
