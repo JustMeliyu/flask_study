@@ -2,19 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a60c420-febd-4166-9191-09eb65996988" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/Tree/T03_AVL.py" />
       <change beforePath="$PROJECT_DIR$/../come_on_fisrt/migrations/versions/603e1d8a2f1c_.py" afterPath="" />
       <change beforePath="$PROJECT_DIR$/../come_on_fisrt/migrations/versions/a53b6ae8fba4_.py" afterPath="" />
       <change beforePath="$PROJECT_DIR$/../come_on_fisrt/migrations/versions/c948423f7eb9_.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/01object_address.py" afterPath="" />
       <change beforePath="$PROJECT_DIR$/02magic.py" afterPath="" />
       <change beforePath="$PROJECT_DIR$/03class_method.py" afterPath="" />
       <change beforePath="$PROJECT_DIR$/04Fibonacci.py" afterPath="" />
       <change beforePath="$PROJECT_DIR$/05and_or.py" afterPath="" />
       <change beforePath="$PROJECT_DIR$/06lambda.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Tree/T02_TreeTrvaersal.py" afterPath="$PROJECT_DIR$/Tree/T02_TreeTrvaersal.py" />
-      <change beforePath="$PROJECT_DIR$/tmp3.py" afterPath="$PROJECT_DIR$/tmp3.py" />
+      <change beforePath="$PROJECT_DIR$/Tree/T03_AVL.py" afterPath="$PROJECT_DIR$/Tree/T03_AVL.py" />
+      <change beforePath="$PROJECT_DIR$/tmp.py" afterPath="$PROJECT_DIR$/tmp.py" />
       <change beforePath="$PROJECT_DIR$/../test_dir/come_on_first/app/templates/__init__.py" afterPath="" />
       <change beforePath="$PROJECT_DIR$/../test_dir/come_on_first/app/views/v1/publish_article.py" afterPath="" />
       <change beforePath="$PROJECT_DIR$/../test_dir/come_on_first/file/20180619174230test.txt" afterPath="" />
@@ -80,7 +78,7 @@
     <SUITE FILE_PATH="coverage/next_station$B18Sudoku.coverage" NAME="B18Sudoku Coverage Results" MODIFIED="1535358079899" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/big_or_home/codingonway" />
     <SUITE FILE_PATH="coverage/next_station$A23Time.coverage" NAME="A23Time Coverage Results" MODIFIED="1535611369813" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/next_station$N07_MaxDivisor.coverage" NAME="N07_MaxDivisor Coverage Results" MODIFIED="1535526209986" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/big_or_home/beauty_coding/BC02_Num" />
-    <SUITE FILE_PATH="coverage/next_station$tmp.coverage" NAME="tmp Coverage Results" MODIFIED="1536732362612" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/next_station$tmp.coverage" NAME="tmp Coverage Results" MODIFIED="1537952677779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/next_station$07apihelper.coverage" NAME="07apihelper Coverage Results" MODIFIED="1532501398645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/next_station$B08dict.coverage" NAME="B08dict Coverage Results" MODIFIED="1534472860407" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/big_or_home/codingonway" />
     <SUITE FILE_PATH="coverage/next_station$tasks.coverage" NAME="tasks Coverage Results" MODIFIED="1533794221820" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -124,11 +122,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="tmp.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="tmp.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tmp.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="740">
-              <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="46" selection-end-column="29" />
+            <state relative-caret-position="420">
+              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -213,11 +211,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="T03_AVL.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="T03_AVL.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Tree/T03_AVL.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="3" column="60" lean-forward="false" selection-start-line="3" selection-start-column="60" selection-end-line="3" selection-end-column="60" />
+            <state relative-caret-position="1782">
+              <caret line="143" column="0" lean-forward="true" selection-start-line="143" selection-start-column="0" selection-end-line="143" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -309,12 +307,12 @@
         <option value="$PROJECT_DIR$/A24Restful_API.py" />
         <option value="$PROJECT_DIR$/A03class_method.py" />
         <option value="$PROJECT_DIR$/Tree/T01_left_right.py" />
-        <option value="$PROJECT_DIR$/tmp.py" />
         <option value="$PROJECT_DIR$/tmp4.py" />
         <option value="$PROJECT_DIR$/tmp2.py" />
         <option value="$PROJECT_DIR$/tmp3.py" />
         <option value="$PROJECT_DIR$/Tree/T02_TreeTrvaersal.py" />
         <option value="$PROJECT_DIR$/Tree/T03_AVL.py" />
+        <option value="$PROJECT_DIR$/tmp.py" />
       </list>
     </option>
   </component>
@@ -411,7 +409,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.tmp3">
+  <component name="RunManager" selected="Python.tmp">
     <configuration name="A03class_method" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -516,9 +514,9 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.tmp3" />
-        <item index="1" class="java.lang.String" itemvalue="Python.T01_left_right" />
-        <item index="2" class="java.lang.String" itemvalue="Python.tmp" />
+        <item index="0" class="java.lang.String" itemvalue="Python.tmp" />
+        <item index="1" class="java.lang.String" itemvalue="Python.tmp3" />
+        <item index="2" class="java.lang.String" itemvalue="Python.T01_left_right" />
         <item index="3" class="java.lang.String" itemvalue="Python.A03class_method" />
         <item index="4" class="java.lang.String" itemvalue="Python.A23Time" />
       </list>
@@ -557,7 +555,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3511628" sideWeight="0.51463413" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32906976" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32906976" sideWeight="0.48536587" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32906976" sideWeight="0.48536587" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32945284" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17560975" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -884,14 +882,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tmp.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="740">
-          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="46" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.PyCharm2017.3/system/python_stubs/-923448878/time.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3520">
@@ -957,8 +947,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Tree/T03_AVL.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="60" lean-forward="false" selection-start-line="3" selection-start-column="60" selection-end-line="3" selection-end-column="60" />
+        <state relative-caret-position="1782">
+          <caret line="143" column="0" lean-forward="true" selection-start-line="143" selection-start-column="0" selection-end-line="143" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tmp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding />
         </state>
       </provider>

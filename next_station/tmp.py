@@ -1,52 +1,21 @@
+import redis
+REDIS_DB = 1
+REDIS_HOST = '127.0.0.1'
+REDIS_PORT = 6379
+REDIS_PASSWORD = ''
+REDIS_URL = 'redis://:%s@%s:%s/%s' % (REDIS_PASSWORD, REDIS_HOST, REDIS_PORT, REDIS_DB)
+url = 'redis://:@127.0.0.1:6379/1'
+# print url
+# print REDIS_URL
+r = redis.from_url(url)
 
-list_trans = []
+a = {
+    "a": 1,
+    "b": 2
+}
+b = [1, 2, 3]
+# r.set("te", "a", a)
 
-list_trans.append(trans_id)
-list_trans.append(trans_number)
-list_trans.append(tp_mode)
-list_trans.append(driver_name)
-list_trans.append(driver_tel)
-list_trans.append(driver_name2)
-list_trans.append(plate)
-list_trans.append(truck_licence)
-list_trans.append(line_name)
-list_trans.append(line_pro)
-list_trans.append(list_cq)
-list_trans.append(cq_number_jg)
-list_trans.append(settlement_mode)
-list_trans.append(vehicle_type)
-# 以上未顺序未变
-list_trans.append(run_mode)
-list_trans.append(create_date)
-list_trans.append(create_time)
-list_trans.append(p_status)
-铅封号
-list_trans.append(list_note)
-list_trans.append(belong_date)
-list_trans.append(carrier)
-list_trans.append(true_line_name)
-list_trans.append(true_settlement_mode)
-list_trans.append(truck_empty)
-list_trans.append(is_link)
-list_trans.append(link_tp)
-list_trans.append(op_no)
-list_trans.append(op_name)
-list_trans.append(truck_type)
-
-
-
-list_trans.append(check_date)
-list_trans.append(check_time)
-list_trans.append(start_date)
-list_trans.append(start_time)
-list_trans.append(depart_date)
-list_trans.append(depart_time)
-list_trans.append(end_date)
-list_trans.append(end_time)
-list_trans.append(reach_date)
-list_trans.append(reach_time)
-实际时效
-
-
-
-
+# r.set("te2", b)
+# r.set("te2", b)
+# r.set("te2", b)
