@@ -29,6 +29,3 @@ def get_coke2(bottle):
 
 
 print 20 + get_coke2(20)
-
-print 1 // 2
-print 1 % 2

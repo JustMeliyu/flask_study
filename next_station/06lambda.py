@@ -1,5 +1,5 @@
 collapse = True
-processFunc = collapse and (lambda s: " ".join(s.split())) or (lambda s: s)
+processFunc = collapse and (lambda strq: " ".join(strq.split())) or (lambda s: s)
 s = "this  is\na\ttest"
 print "s is : ", s
 print "s.split() is : ", s.split()

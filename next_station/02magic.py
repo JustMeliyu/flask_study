@@ -18,8 +18,6 @@ f(1, 2, *t)  # (1, 2, 4, 5, 6) {}
 f(q="winning", **d)  # () {'a': 7, 'q': 'winning', 'c': 9, 'b': 8}
 f(1, 2, *t, q="winning", **d)  # (1, 2, 4, 5, 6) {'a': 7, 'q': 'winning', 'c': 9, 'b': 8}
 
-print "========="
-
 
 def f2(arg1, arg2, *args, **kwargs): print arg1, arg2, args, kwargs
 

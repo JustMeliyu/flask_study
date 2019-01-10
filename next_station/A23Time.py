@@ -91,6 +91,7 @@ print "3.1: time部分: {0}; 类型: {1}".format(a_datetime.time(), type(a_datet
 print "3.1: 返回UTC时间元组: {0}".format(a_datetime.utctimetuple())
 print "3.1: 将一个date对象与一个time对象合并为一个datetime对象: {0}, 类型: {1}".format(b_datetime, type(b_datetime))
 
+
 # 与date和time对象相同的属性或方法
 c_datetime = datetime.datetime.fromtimestamp(i)
 d_datetime = a_datetime.strftime("%Y-%m-%d %H:%M:%S")
@@ -102,6 +103,7 @@ print "3.2: timetuple: {0}".format(a_datetime.timetuple())
 print "3.2: replace: {0};".format(f_datetime)
 print "3.2: strftime: {0}; 类型: {1}".format(d_datetime, type(d_datetime))
 print "3.2: strptime: {0}; 类型: {1}".format(e_datetime, type(e_datetime))
+
 
 print "\n======四: datetime.timedelta======\n"
 # 四: timedelta类

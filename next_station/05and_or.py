@@ -21,8 +21,6 @@ def choose(boolvalue, first, second):
     return (boolvalue and [first] or [second])[0]
 
 
-# a = "first"
-# b = "second"
 a = ""
 b = "second"
 b.split()
