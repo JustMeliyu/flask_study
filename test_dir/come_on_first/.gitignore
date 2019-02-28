@@ -1,8 +1,0 @@
-*.py[cod]
-*.so
-*~
-.directory
-.idea
-/log/*
-/tmp/*
-/test/*
