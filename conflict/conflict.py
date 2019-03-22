@@ -2,5 +2,5 @@
 """
 测试GIT冲突
 """
-print "this is conflict"
-print "Creating a new branch is quick AND simple."
+print "this is confli !!"
+print "Creating a new bran is quick AND simple.  !!"
