@@ -1,7 +1,9 @@
 # encoding: utf-8
-# 函数执行异常重试装饰器
-# 该decorator可以接收一个参数 'max_retry_count'
-# 重试执行超过 max_retry_count 次的函数打印函数名字和异常类型
+__doc__ = """
+函数执行异常重试装饰器, 
+该decorator可以接收一个参数 'max_retry_count', 
+重试执行超过 max_retry_count 次的函数打印函数名字和异常类型
+"""
 import traceback
 from functools import wraps
 
