@@ -42,11 +42,56 @@ def afunc(z):
         return afunc(z - 1) + afunc(z - 2)
 
 
+def quick_sort(origin_list):
+    for i in range(len(origin_list) - 1):
+        for j in range(len(origin_list) - 1, i - 1, -1):
+            if origin_list[i] > origin_list[j]:
+                origin_list[i], origin_list[j] = origin_list[j], origin_list[i]
+                print origin_list
+            if i == j:
+                break
+    return origin_list
+
+
+def quick_sort2(data):
+    """快速排序"""
+    if len(data) >= 2:  # 递归入口及出口
+        mid = data[len(data) // 2]  # 选取基准值，也可以选取第一个或最后一个元素
+        left, right = [], []  # 定义基准值左右两侧的列表
+        data.remove(mid)  # 从原始数组中移除基准值
+        for num in data:
+            if num >= mid:
+                right.append(num)
+            else:
+                left.append(num)
+        return quick_sort(left) + [mid] + quick_sort(right)
+    else:
+        return data
+
+
+def quick_sort3(origin_sort):
+    if len(origin_sort) > 1:
+        mid = origin_sort[0]
+        del origin_sort[0]
+        left = []
+        right = []
+        for i in origin_sort:
+            if i < mid:
+                left.append(i)
+            else:
+                right.append(i)
+        # mm = quick_sort3(left) + [mid] + quick_sort3(right)
+        # print mm
+        return quick_sort3(left) + [mid] + quick_sort3(right)
+    else:
+        return origin_sort
+
+
 if __name__ == "__main__":
     # a = [3, 40, 7, 34, 2, 89, 1, 432, 23, 89, 5, 2222]
-    a = [3, 40, 50, 1, 40, 20, 80]
-    b = select_sort(a)
-    print b
+    # a = [3, 40, 50, 1, 40, 20, 80]
+    # b = select_sort(a)
+    # print b
     # print "======"
     # c = [3, 40, 7, 34, 2, 89, 1, 432, 23, 89, 5, 2222]
     # d = bubble_sort(c)
@@ -57,3 +102,6 @@ if __name__ == "__main__":
     # a = afunc(10)
     # print "a is {0}".format(a)
     # print TOTAL_COUNT
+    a = [3, 40, 7, 34, 2, 89, 1, 432, 23, 89, 5, 2222]
+    b = quick_sort3(a)
+    print b
