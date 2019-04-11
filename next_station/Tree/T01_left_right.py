@@ -5,6 +5,7 @@
 """
 from T02_TreeTrvaersal import TreeTrvaersal
 
+
 class Tree(object):
     def __init__(self, x, left=None, right=None):
         self.x = x
@@ -24,6 +25,7 @@ tt.pre_traversal(fork_tree)
 # tt.in_traversal(fork_tree)
 # tt.post_traversal(fork_tree)
 print tt.li
+
 
 class TreeRotato(object):
     def __init__(self):
