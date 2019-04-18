@@ -11,11 +11,13 @@ def consumer():
 
 def produce(con):
     con.send(None)
+    # con.next()
     n = 0
     while n < 5:
         n = n + 1
         print('[PRODUCER] Producing %s...' % n)
         r = con.send(n)
+        # r = con.next()
         print('[PRODUCER] Consumer return: %s' % r)
     con.close()
 
