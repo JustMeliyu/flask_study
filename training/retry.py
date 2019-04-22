@@ -20,12 +20,12 @@ def retry_func(max_retry_count):
                     result = func(*args, **kwargs)
                 except Exception as e:
                     retry_count += 1
-                    print "retry count {0}...".format(retry_count)
-                    print traceback.format_exc(e)
+                    print("retry count {0}...".format(retry_count))
+                    print(traceback.format_exc(e))
                 else:
                     return result
-            print "ErrorType is {0}".format(repr(e))
-            print "FunctionName is {0}".format(func.__name__)
+            print("ErrorType is {0}".format(repr(e)))
+            print("FunctionName is {0}".format(func.__name__))
             return None
         return try_to_do
     return _retry_func
@@ -42,12 +42,12 @@ def retry_func2(func):
                 result = func(*args, **kwargs)
             except Exception as e:
                 retry_count += 1
-                print "retry count {0}...".format(retry_count)
-                print traceback.format_exc(e)
+                print("retry count {0}...".format(retry_count))
+                print(traceback.format_exc(e))
             else:
                 return result
-        print "ErrorType is {0}".format(repr(e))
-        print "FunctionName is {0}".format(func.__name__)
+        print("ErrorType is {0}".format(repr(e)))
+        print("FunctionName is {0}".format(func.__name__))
         return None
     return _retry_func2
 
@@ -55,14 +55,14 @@ def retry_func2(func):
 @retry_func(3)
 def func1(x):
     a = 6 / x
-    print "result is {0}".format(a)
+    print("result is {0}".format(a))
     return a
 
 
 @retry_func2
 def func2(x):
     a = 6 / x
-    print "result is {0}".format(a)
+    print("result is {0}".format(a))
     return a
 
 
@@ -70,4 +70,4 @@ if __name__ == "__main__":
     # re = func1(3)
     # print "result is {0}".format(re)
     re = func2(0)
-    print "result is {0}".format(re)
+    print("result is {0}".format(re))

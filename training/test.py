@@ -87,16 +87,18 @@ re = {"province_location_codes": {
 }
 
 keys = re['province_location_codes'].keys()
-print keys
+print(keys)
 a = re['province_location_codes'].values()
 b = [q['province'].decode("utf-8") for q in a]
-print b
+print(b)
 # for x in b:
 #     print x, type(x)
-print "=========="
+print("==========")
 for i in b:
-    print lazy_pinyin(i)
-print "====="
+    print(lazy_pinyin(i))
+print("=====")
+
+
 # b = sorted(b, key=lambda _x: lazy_pinyin(_x.lower())[0][0])
 # for x in b:
 #     print x

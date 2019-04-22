@@ -3,7 +3,7 @@ __doc__ = """快速排序"""
 
 
 def quick_sort(origin_list):
-    print origin_list
+    print(origin_list)
     if len(origin_list) > 1:
         mid = origin_list[0]
         del origin_list[0]
@@ -119,7 +119,7 @@ if __name__ == "__main__":
     # a = quick_sort(a)
     # a = quick_sort2(a)
     a = quick_sort4(a)
-    print a
+    print(a)
     # left:[2, 1]  mid:[3]  right:[40, 7, 34, 89, 432, 23, 89, 5, 2222]
     # left:[1] mid:[2] right:[]  mid:[3]  right:[40, 7, 34, 89, 432, 23, 89, 5, 2222]
     # left:[1] mid:[2] right:[]  mid:[3]  left[7, 34, 23, 5] mid:[40] right:[89, 432, 89, 2222]

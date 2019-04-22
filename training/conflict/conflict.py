@@ -2,6 +2,6 @@
 """
 测试GIT冲突
 """
-print "this is confli !!"
-print "Creating a new branag is quick AND simple.  !!"
-print "Creating a new branag is quick AND simple.  !!"
+print("this is confli !!")
+print("Creating a new branag is quick AND simple.  !!")
+print("Creating a new branag is quick AND simple.  !!")
