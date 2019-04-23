@@ -4,7 +4,7 @@ import logging
 from logging.handlers import TimedRotatingFileHandler
 from logging import Formatter
 
-numeric_level = getattr(logging, "DEBUG", None)
+numeric_level = getattr(logging, "INFO", None)
 if not isinstance(numeric_level, int):
     raise ValueError('Invalid log level:%s' % "LOG_LEVEL")
 

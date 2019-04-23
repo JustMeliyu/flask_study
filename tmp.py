@@ -1,5 +1,8 @@
 # -*-coding:utf-8-*-
-a = ["a", "b", "c"]
-b = [1, 2, 3]
-c = dict(map(lambda x, y: (x, y), a, b))
-print(c)
+def f(ham: 42, eggs: int = 'spam') -> "Nothing to see here":
+    print("函数注释", f.__annotations__)
+    print("参数值打印", ham, eggs)
+    print(type(ham), type(eggs))
+
+
+f("rew")

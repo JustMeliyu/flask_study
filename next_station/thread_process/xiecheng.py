@@ -15,6 +15,7 @@ def get_body(count_i):
     requests.get("http://cn.bing.com")
     generate_data()
     print("end", count_i, datetime.now())
+    return 1
 
 
 @get_func_time
