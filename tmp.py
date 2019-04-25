@@ -6,3 +6,28 @@ def f(ham: 42, eggs: int = 'spam') -> "Nothing to see here":
 
 
 f("rew")
+
+
+def gen():
+    for c in 'AB':
+        yield c
+
+
+print(list(gen()))
+
+
+def gen_new():
+    yield from 'AB'
+
+
+print(list(gen_new()))
+
+try:
+    print(1)
+except ValueError:
+    ...
+a = 1
+if not a:
+    ...
+else:
+    print(111)

@@ -4,7 +4,7 @@ from next_station.logger import logger
 from next_station.constant import APIEncoder
 import json
 import requests
-import urllib2
+# import urllib2
 import urllib
 import traceback
 
@@ -19,14 +19,14 @@ def max_conenct(func):
             try:
                 func(*args, **kwargs)
             except Exception as e:
-                print repr(e)
+                logger.error(repr(e))
                 connect += 1
                 logger.error("connect is {0}".format(connect))
             else:
                 break
         if connect == _max:
-            print func.__name__
-            logger.error("finally error is {0}".format(repr(e)))
+            logger.info(func.__name__)
+            logger.info("finally error is {0}".format(repr(e)))
     return _max_connect
 
 
@@ -45,10 +45,11 @@ def request_sys(req_url, request_data, method, reqheaders):
     logger.info("headers is {0}".format(reqheaders))
     try:
         if 'GET' == method:
-            request_data = urllib.urlencode(request_data).encode(encoding='utf-8')
-            request = urllib2.Request(url="{0}?{1}".format(req_url, request_data), headers=reqheaders)
-            res = urllib2.urlopen(request)
-            result = res.read()
+            # request_data = urllib.urlencode(request_data).encode(encoding='utf-8')
+            result = requests.get(url=req_url, params=request_data, headers=reqheaders)
+            # request = urllib2.Request(url="{0}?{1}".format(req_url, request_data), headers=reqheaders)
+            # res = urllib2.urlopen(request)
+            # result = res.read()
             logger.info("res content is {0}".format(result))
             return json.loads(result)
         elif 'POST' == method:
