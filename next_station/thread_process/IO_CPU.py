@@ -10,6 +10,8 @@ import requests
 import time
 from threading import Thread
 from next_station.common import get_func_time
+from multiprocessing import Process
+from next_station.logger import logger
 
 
 # CPU计算密集型
@@ -67,17 +69,18 @@ def multi_thread(func, func_type=""):
             break
 
 
-# 多线程
-multi_thread(count, func_type="CPU计算密集型")
-multi_thread(io_disk, func_type="磁盘IO密集型")
-multi_thread(io_request, func_type="网络IO密集型")
-multi_thread(io_simulation, func_type="模拟IO密集型")
+# # 多线程
+# multi_thread(count, func_type="CPU计算密集型")
+# multi_thread(io_disk, func_type="磁盘IO密集型")
+# multi_thread(io_request, func_type="网络IO密集型")
+# multi_thread(io_simulation, func_type="模拟IO密集型")
 
 
 @get_func_time
-def multi_process(func, type=""):
+def multi_process(func, fun_type=""):
+    logger.info("multi_process type is {0}".format(fun_type))
     process_list = []
-    for x in range(10):
+    for x in range(3):
         p = Process(target=func, args=())
         process_list.append(p)
         p.start()
@@ -89,3 +92,10 @@ def multi_process(func, type=""):
                 e -= 1
         if e <= 0:
             break
+
+
+if __name__ == '__main__':
+    fun_list = [count, io_disk, io_request, io_simulation]
+    for fun in fun_list:
+        # multi_thread(fun)
+        multi_process(fun)

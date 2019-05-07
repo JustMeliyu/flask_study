@@ -2,131 +2,76 @@
 __doc__ = """快速排序"""
 
 
-def quick_sort(origin_list):
-    print(origin_list)
-    if len(origin_list) > 1:
-        mid = origin_list[0]
-        del origin_list[0]
+def quick_sort1(my_list):
+    if len(my_list) > 1:
+        # 选择第一个元素做基准数(pivot)
+        povit = my_list[0]
         left = []
         right = []
-        for i in origin_list:
-            if i < mid:
+        for i in my_list[1:]:
+            if i < povit:
+                # 将小的放到一个数组
                 left.append(i)
             else:
+                # 大的放到另一个数组
                 right.append(i)
-        return quick_sort(left) + [mid] + quick_sort(right)
+        # 再分别递归两个数组, 将所有数组相加
+        return quick_sort1(left) + [povit] + quick_sort1(right)
     else:
-        return origin_list
+        return my_list
 
 
-def quick_sort2(myList):
-    # a = [3, 40, 7, 34, 2, 89, 1, 432, 23, 89, 5, 2222]
-    # 判断low是否小于high,如果为false,直接返回
-    if len(myList) > 0:
-        i = 1
-        j = len(myList) - 1
-        # 设置基准数
-        base = myList[0]
-
-        while i < j:
-            # 如果列表后边的数,比基准数大或相等,则前移一位直到有比基准数小的数出现
-            while (i < j) and (myList[j] >= base):
-                j = j - 1
-
-            # 同样的方式比较前半区
-            while (i < j) and (myList[i] <= base):
-                i = i + 1
-
-            # 如找到,则把第j个元素赋值给第个元素i,此时表中i,j个元素相等
-            if i < j:
-                myList[i], myList[j] = myList[j], myList[i]
-
-            # 同样的方式比较前半区
-            # while (i < j) and (myList[i] <= base):
-            #     i = i + 1
-            # myList[j] = myList[i]
-        # 做完第一轮比较之后,列表被分成了两个半区,并且i=j,需要将这个数设置回base
-        # myList[i] = base
-
-        # 递归前后半区
-        return quick_sort4(myList[:i]) + [myList[i]] + quick_sort4(myList[i + 1:])
-    return myList
-
-
-def quick_sort3(myList, start, end):
-    # 判断low是否小于high,如果为false,直接返回
+def quick_sort2(start, end, my_list):
     if start < end:
-        i, j = start, end
-        # 设置基准数
-        base = myList[i]
-
+        i = start
+        j = end
+        pivot = my_list[i]
         while i < j:
-            # 如果列表后边的数,比基准数大或相等,则前移一位直到有比基准数小的数出现
-            while (i < j) and (myList[j] >= base):
-                j = j - 1
+            # 从第j个元素向前, 依次与pivot比较, 当出现比它小的时候, 停止,
+            while i < j and my_list[j] >= pivot:
+                j -= 1
+            # 此时将此时的第j个元素赋值给第i个元素
+            my_list[i] = my_list[j]
 
-            # 如找到,则把第j个元素赋值给第个元素i,此时表中i,j个元素相等
-            myList[i] = myList[j]
-
-            # 同样的方式比较前半区
-            while (i < j) and (myList[i] <= base):
-                i = i + 1
-            myList[j] = myList[i]
-        # 做完第一轮比较之后,列表被分成了两个半区,并且i=j,需要将这个数设置回base
-        myList[i] = base
-
-        # 递归前后半区
-        quick_sort3(myList, start, i - 1)
-        quick_sort3(myList, j + 1, end)
-    return myList
+            # 从第i个元素向后, 依次与pivot比较, 当出现比它大的时候, 停止,
+            while i < j and my_list[i] <= pivot:
+                i += 1
+            # 此时将此时的第i个元素赋值给第j个元素
+            my_list[j] = my_list[i]
+        # 当i与j相等时, 将povit赋值给第i个元素
+        my_list[i] = pivot
+        # 递归前半区
+        quick_sort2(start, i - 1, my_list)
+        # 递归后半区
+        quick_sort2(i + 1, end, my_list)
+    return my_list
 
 
-def quick_sort4(myList):
-    # 判断low是否小于high,如果为false,直接返回
-    if len(myList) > 0:
+def quick_sort3(my_list):
+    if len(my_list) > 0:
         i = 0
-        j = len(myList) - 1
-        # 设置基准数
-        base = myList[i]
+        j = len(my_list) - 1
+        pivot = my_list[i]
 
         while i < j:
-            # 如果列表后边的数,比基准数大或相等,则前移一位直到有比基准数小的数出现
-            while (i < j) and (myList[j] >= base):
-                j = j - 1
+            while (i < j) and (my_list[j] >= pivot):
+                j -= 1
+            my_list[i] = my_list[j]
 
-            # 如找到,则把第j个元素赋值给第个元素i,此时表中i,j个元素相等
-            myList[i] = myList[j]
+            while (i < j) and (my_list[i] <= pivot):
+                i += 1
+            my_list[j] = my_list[i]
 
-            # 同样的方式比较前半区
-            while (i < j) and (myList[i] <= base):
-                i = i + 1
-            myList[j] = myList[i]
-        # 做完第一轮比较之后,列表被分成了两个半区,并且i=j,需要将这个数设置回base
-        myList[i] = base
+        my_list[i] = pivot
 
-        # 递归前后半区
-        return quick_sort4(myList[:i]) + [myList[i]] + quick_sort4(myList[i + 1:])
-    return myList
+        # 递归前后半区, 结果求和
+        return quick_sort3(my_list[:i]) + [my_list[i]] + quick_sort3(my_list[i + 1:])
+    return my_list
 
 
 if __name__ == "__main__":
     a = [3, 40, 7, 34, 2, 89, 1, 432, 23, 89, 5, 2222]
-    # a = [2, 89, 1, 432, 23, 89, 5, 2222]
-    # print a[:3], [a[3]], a[4:]
-    # a = [3, 1, 2, 34, 7, 89, 40, 432, 23, 89, 5, 2222]
-    # a = [5, 1, 2, 34, 5, 7, 89, 40, 432, 23, 89, 3, 2222]
-    # a = [2, 1]
-    # a = quick_sort(a)
-    # a = quick_sort2(a)
-    a = quick_sort4(a)
+    # a = quick_sort2(0, len(a) - 1, a)
+    a = quick_sort3(a)
+    print("========")
     print(a)
-    # left:[2, 1]  mid:[3]  right:[40, 7, 34, 89, 432, 23, 89, 5, 2222]
-    # left:[1] mid:[2] right:[]  mid:[3]  right:[40, 7, 34, 89, 432, 23, 89, 5, 2222]
-    # left:[1] mid:[2] right:[]  mid:[3]  left[7, 34, 23, 5] mid:[40] right:[89, 432, 89, 2222]
-    # left:[1] mid:[2] right:[]  mid:[3]  left[5] mid:[7] right:[34, 23] mid:[40] right:[89, 432, 89, 2222]
-    # left:[1] mid:[2] right:[]  mid:[3]  left[5] mid:[7] left:[23] mid[34] right:[] mid:[40] right:[89, 432, 89, 2222]
-    # left:[1] mid:[2] right:[]  mid:[3]  left[5] mid:[7] left:[23] mid[34] right:[] mid:[40] right:[89, 432, 89, 2222]
-
-    # [3, 40, 7, 34, 2, 89, 1, 432, 23, 89, 5, 2222]
-    # [1, 40, 7, 34, 2, 89, 3, 432, 23, 89, 5, 2222]    i = 0, j= 6
-    # [1, 3, 7, 34, 2, 89, 40, 432, 23, 89, 5, 2222]    i = 1, j= 6

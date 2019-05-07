@@ -64,3 +64,14 @@ def request_sys(req_url, request_data, method, reqheaders):
     except Exception as e:
         logger.error('request_order_sys access error:%s' % (traceback.format_exc(e),))
     return None
+
+
+def is_thread_finish(thread_pool):
+    while True:
+        for t in thread_pool:
+            if not t.isAlive():
+                # logger.info("t{0} is finished".format(t.getName()))
+                thread_pool.pop(thread_pool.index(t))
+        if not thread_pool:
+            break
+    logger.info("all thread finish")

@@ -31,12 +31,18 @@ def get_code(addr):
     codes = ws.col_values(1, 1)
     provinces = ws.col_values(3, 1)
     province_location_codes = init_data()
+    a = []
     for i in range(len(provinces)):
         p_code = SQ_USER.get(provinces[i].encode('utf-8'))
         if not p_code:
-            print(provinces[i])
+            print("++", provinces[i])
             continue
-        province_location_codes[p_code]['codes'].append(str(int(codes[i])).zfill(6))
+        code = str(int(codes[i])).zfill(6)
+        if code not in province_location_codes[p_code]['codes']:
+            province_location_codes[p_code]['codes'].append(code)
+        else:
+            print("--", code)
+            a.append(code)
     write_json_file("./tmp.json", province_location_codes)
 
 
