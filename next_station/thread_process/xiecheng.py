@@ -13,14 +13,13 @@ monkey.patch_all()
 def get_body(count_i):
     print("start", count_i, datetime.now())
     requests.get("http://cn.bing.com")
-    generate_data()
     print("end", count_i, datetime.now())
     return 1
 
 
-@get_func_time
-def generate_data():
-    a = [i for i in xrange(10000000)]
+# @get_func_time
+# def generate_data():
+#     a = [i for i in xrange(10000000)]
 
 
 @get_func_time
